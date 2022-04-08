@@ -1,0 +1,252 @@
+@import "variables";
+@import "bootstrap/bootstrap";
+@import "mixins";
+@import "common";
+@import "elysium-web-icons";
+
+@font-face {
+	@include fontface($ArchivoExtraLight, 'Archivo-ExtraLight');
+}
+@font-face {
+	@include fontface($ArchivoLight, 'Archivo-Light');
+}
+@font-face {
+	@include fontface($ArchivoMedium, 'Archivo-Medium');
+}
+@font-face {
+	@include fontface($ArchivoSemiBold, 'Archivo-SemiBold');
+}
+@font-face {
+	@include fontface($ArchivoBold, 'Archivo-Bold');
+}
+@font-face {
+	@include fontface($ArchivoBlack, 'Archivo-Black');
+}
+@font-face {
+	@include fontface($RobotoLight, 'Roboto-Light');
+}
+@font-face {
+	@include fontface($RobotoRegular, 'Roboto-Regular');
+}
+@font-face {
+	@include fontface($RobotoBold, 'Roboto-Bold');
+}
+
+body {
+	background-color: #140533;
+	font-family: $RobotoRegular;
+	font-size: $BodyTextSize;
+	font-weight: normal;
+	color: $BodyTextColor;
+}
+
+h1 {
+}
+
+h2 {
+	font-family: $ArchivoBold;
+	font-size: 72px;
+}
+h3 {
+	font-family: $ArchivoBold;
+	font-size: 56px;
+}
+
+h4 {
+	font-family: $ArchivoSemiBold;
+	font-size: 32px;
+}
+
+h5 {
+	font-family: $ArchivoBold;
+	font-size: 28px;
+}
+
+h6 {
+	font-family: $RobotoBold;
+	font-size: 14px;
+}
+
+header {
+	.navbar {
+		.navbar-brand {
+			max-width: 195px;
+		}
+		.navbar-collapse {
+			> ul {
+				font-size: 14px;
+				> .nav-item {
+					> .nav-link {
+						padding: 0;
+						letter-spacing: 0.28px;
+						color: #fff;
+
+						&:hover,
+						&.active {
+							color: $GreenColor;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#Banner {
+	background: url("../images/bg-globe.jpg") no-repeat right center / auto 100%;
+	height: calc(100vh - 103px);
+	&.securitysection{
+		padding-top: 100px;
+	}
+
+	h1 {
+		font-size: 132px;
+	}
+}
+
+#DataAcrossBlockchain {
+	&.RadialGradient {
+		&:before {
+			top:-250px;
+		}
+	}
+}
+#InnovateInspire{
+	padding-bottom: 100px;
+	.join-btn{
+		padding: 24px 147px;
+		background: #ADA7B7 0% 0% no-repeat padding-box;
+		border-radius: 12px;
+		color: #140533;
+	}
+}
+#StoreSecure {
+	padding-top: 150px;
+	&.RadialGradient {
+		&:before {
+			top:-250px;
+		}
+	}
+}
+#EthereumAccessible {
+	padding-top: 300px !important;
+	&.RadialGradient {
+		&:before {
+			max-width: 474px;
+			height: 430px;
+			top:-132px;
+			right: 21%;
+		}
+	}
+}
+#BuildingElysium{
+	&.RadialGradient {
+		&:before {
+			max-width: 474px;
+			height: 430px;
+			top:-132px;
+			right: 21%;
+		}
+	}
+}
+#NetworkGlossary {
+	.Background {
+		background: transparent linear-gradient(129deg, #7F2E8D 0%, #320C73 100%) 0% 0% no-repeat padding-box;
+		border-radius: 20px;
+	}
+}
+
+#BestTechnology {
+	background-color: rgba(87,67,128,0.25);
+	margin-top:-150px;
+	padding-top:350px;
+	padding-bottom:100px;
+}
+#Talk{
+	background-color: rgba(87,67,128,0.25);
+	padding-top:100px;
+	padding-bottom:100px;
+}
+#ElysiumSubstrate{
+	background-color: rgba(87,67,128,0.25);
+	padding-top:100px;
+	padding-bottom:100px;
+	a{
+		color:#9FC131;
+	}
+}
+#ProcessingTransactions {
+	background-color: rgba(87,67,128,0.25);
+	padding-bottom:60px;
+}
+#GroundbreakingTechnology {
+	.min-height-68 {
+		min-height: 68px;
+	}
+}
+#BuildingElysium {
+	&.RadialGradient {
+		&:before {
+			top:-180px;
+		}
+	}
+}
+#ContactForm
+{
+	padding: 100px 0px;
+	background-color: rgba(87, 67, 128, 0.25);
+input,textarea{
+	background: #1E103C 0% 0% no-repeat padding-box;
+	border: 1px solid #3B2864;
+	border-radius: 5px;
+	color: #544769;
+	font-size: 18px;
+	margin-bottom: 24px;
+	&:focus {
+		outline: 0;
+		box-shadow: none;
+	}
+}
+	label{
+		padding-bottom: 10px;
+	}
+
+}
+#ElysiumAmbassador{
+	.echo-link{
+		color:#9FC131;
+		text-decoration: underline;
+	}
+}
+#ElysiumGrow{
+	.grow-inner-card{
+		background-color: blueviolet;
+		min-height: 397px;
+		background-repeat: no-repeat;
+		&:hover h6{
+
+				display: block;
+			}
+
+	}
+}
+footer {
+	a {
+		color: #fff;
+	}
+}
+
+/*======================================
+		Responsive START
+======================================*/
+
+@include media-breakpoint-down(xxl) {
+}
+@include media-breakpoint-down(xl) {
+}
+@include media-breakpoint-down(lg) {
+}
+@include media-breakpoint-down(md) {
+}
+@include media-breakpoint-down(sm) {
+}

@@ -1,0 +1,302 @@
+/*==========================
+      Universal CSS
+==========================*/
+:root {
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+a {
+	color: #9EA5B4;
+	text-decoration: none;
+
+	&:hover {
+		color: #9EA5B4;
+	}
+}
+
+input:focus, a:focus, button:focus, textarea:focus {
+	outline: none;
+}
+
+.Fsize {
+	&_10 {
+		font-size: 10px;
+	}
+	&_12 {
+		font-size: 12px;
+	}
+	&_14 {
+		font-size: 14px;
+	}
+	&_16 {
+		font-size: 16px;
+	}
+	&_18 {
+		font-size: 18px;
+	}
+	&_22 {
+		font-size: 22px;
+	}
+	&_24 {
+		font-size: 24px;
+	}
+	&_32 {
+		font-size: 30px;
+	}
+	&_36 {
+		font-size: 36px;
+	}
+	&_42 {
+		font-size: 42px;
+	}
+	&_48 {
+		font-size: 48px;
+	}
+	&_56 {
+		font-size: 56px;
+	}
+	&_72 {
+		font-size: 72px;
+	}
+	&_80 {
+		font-size: 80px;
+	}
+}
+
+.z-index {
+	&-1 {
+		z-index: 1;
+	}
+
+	&-2 {
+		z-index: 2;
+	}
+
+	&-3 {
+		z-index: 3;
+	}
+
+	&-5 {
+		z-index: 5;
+	}
+
+	&-8 {
+		z-index: 8;
+	}
+}
+
+.object {
+	&-cover {
+		object-fit: cover;
+	}
+
+	&-contain {
+		object-fit: contain;
+	}
+}
+
+.flex-auto {
+	flex: 0 0 auto;
+}
+
+.white-space-nowrap {
+	white-space: nowrap;
+}
+
+.break-all {
+	word-break: break-all;
+}
+
+.ReadOnly {
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.line-height-normal {
+	line-height: normal;
+}
+.line-height-38 {
+	line-height: 38px;
+}
+
+.verticle-center {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.align-items-safe-center {
+	align-items: safe center;
+}
+
+.justify-content-safe-center {
+	justify-content: safe center;
+}
+
+.ArchivoExtraLight {
+	font-family: $ArchivoExtraLight;
+}
+.ArchivoLight {
+	font-family: $ArchivoLight;
+}
+.ArchivoMedium {
+	font-family: $ArchivoMedium;
+}
+.ArchivoSemiBold {
+	font-family: $ArchivoSemiBold;
+}
+.ArchivoBold {
+	font-family: $ArchivoBold;
+}
+.ArchivoBlack {
+	font-family: $ArchivoBlack;
+}
+.RobotoLight {
+	font-family: $RobotoLight;
+}
+.RobotoRegular {
+	font-family: $RobotoRegular;
+}
+.RobotoBold {
+	font-family: $RobotoBold;
+}
+
+.TextGradient {
+	background: $TextGradient;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.GradientBox {
+	background: $GradientBox;
+	position: relative;
+	&:before {
+		@include absolute(0,0,0,0);
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: rgba(48,28,80,0.55);
+		z-index: 0;
+		border-radius: 0.75rem;
+	}
+}
+
+.RadialGradient {
+	position: relative;
+	&:before {
+		@include absolute;
+		content: "";
+		max-width: 626px;
+		width: 100%;
+		height: 569px;
+		transform: matrix(0, 1, -1, 0, 0, 0);
+		background: transparent radial-gradient(closest-side at 50% 50%, #FA45C1 0%, #CB389D 21%, #571843 67%, #000000 100%) 0% 0% no-repeat padding-box;
+		mix-blend-mode: color-dodge;
+		opacity: 0.42;
+		z-index: 0;
+	}
+}
+
+.btn {
+	transition: $btn-transition;
+	&:hover {
+		color: inherit;
+	}
+}
+
+.BtnBorder {
+	/*transition: $btn-transition;
+	@include transition(all 0.3s);*/
+	position: relative;
+	//font-family: $TruenoSemiBold;
+	font-size: 14px;
+	line-height: 1;
+	color: #fff;
+	z-index: 1;
+	&:hover {
+		color: #fff;
+	}
+}
+
+.BtnGreen {
+	transition: $btn-transition;
+	@include transition(all 0.3s);
+	background-color: #9FC131;
+	font-family: $ArchivoSemiBold;
+	font-size: 14px;
+	line-height: 1;
+	color: #fff;
+	border:solid 1px #9FC131;
+	&:hover {
+		background-color: rgba($GreenColor, 0.6);
+		border-color: rgba($GreenColor, 0.6);
+		color: #fff;
+	}
+}
+
+.form-control,
+.form-select {
+	&:focus {
+	}
+	@include placeholder {
+	}
+}
+
+
+.form-select {
+	/*background-image: url("../images/arrow-down.svg");
+	background-repeat: no-repeat;
+	background-position: 95% center;*/
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	&:focus {
+		outline: none;
+	}
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+textarea.form-control {
+	height: auto;
+	min-height: 90px;
+	resize: none;
+}
+
+input,
+textarea {
+	&::-webkit-input-placeholder {
+		opacity: 1;
+	}
+
+	&:-moz-placeholder {
+		opacity: 1;
+	}
+
+	&::-moz-placeholder {
+		opacity: 1;
+	}
+
+	&:-ms-input-placeholder {
+		opacity: 1;
+	}
+}
