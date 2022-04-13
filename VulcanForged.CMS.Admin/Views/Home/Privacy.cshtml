@@ -1,0 +1,84 @@
+﻿@using System.IO;
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/AdminLTE/_Layout.cshtml";
+}
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    @{
+                        string filePath = (string)@ViewBag.Filepath;
+                        var folderName = System.IO.Path.GetFileName(System.IO.Path.GetDirectoryName(filePath));
+                        var pageName = System.IO.Path.GetFileNameWithoutExtension(filePath);
+                        var text= $@"{folderName} - {pageName}";
+                    }
+                    <h1>@text</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item">@folderName <a href="#"></a></li>
+                        <li class="breadcrumb-item active">@pageName</li>
+                    </ol> 
+                    
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content h-100">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-outline card-info bg-transparent shadow-none">
+                    <!--<div class="card-header bg-white">
+                        <h3 class="card-title">
+                            CodeMirror
+                        </h3>
+                    </div>-->
+                    <!-- /.card-header -->
+                    <div class="card-body p-0">
+                        <textarea id="codeMirrorDemo" class="p-3">
+                        @ViewBag.Page
+                         </textarea>
+                        <button type="button" id="save" class="btn btn-block btn-primary w-auto px-5 mt-4">Save</button>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-->
+        </div>
+        <!-- ./row -->
+    </section>
+    <!-- /.content -->
+</div>
+@section JS_Scripts {
+    <script> var myJsVariable = '@ViewBag.filePath' </script>
+    <script>
+
+        $(function () {
+
+            var filepath = myJsVariable
+            var editor = CodeMirror.fromTextArea(document.getElementById("codeMirrorDemo"), {
+                mode: "htmlmixed",
+                theme: "monokai",
+                lineNumbers: true
+            });
+             editor.execCommand("find")
+            var urlParams = new URLSearchParams(window.location.search);
+            $('#save').click(function () {
+                $.post('SavePage', { filepath: urlParams.get("filePath"), fileContent: editor.getValue() },
+                    function (returnedData) {
+                        toastr.success(returnedData)
+                        console.log(returnedData);
+                    }).fail(function () {
+                        console.log("error");
+                    });
+
+            })
+
+        })
+    </script>
+
+}

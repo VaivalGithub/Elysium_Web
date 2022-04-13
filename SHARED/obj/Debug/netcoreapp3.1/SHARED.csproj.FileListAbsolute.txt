@@ -1,0 +1,13 @@
+D:\Projects\VF_WEB\SHARED\bin\Debug\netcoreapp3.1\SHARED.deps.json
+D:\Projects\VF_WEB\SHARED\bin\Debug\netcoreapp3.1\SHARED.dll
+D:\Projects\VF_WEB\SHARED\bin\Debug\netcoreapp3.1\SHARED.pdb
+D:\Projects\VF_WEB\SHARED\bin\Debug\netcoreapp3.1\CORE.dll
+D:\Projects\VF_WEB\SHARED\bin\Debug\netcoreapp3.1\CORE.pdb
+D:\Projects\VF_WEB\SHARED\obj\Debug\netcoreapp3.1\SHARED.csproj.AssemblyReference.cache
+D:\Projects\VF_WEB\SHARED\obj\Debug\netcoreapp3.1\SHARED.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VF_WEB\SHARED\obj\Debug\netcoreapp3.1\SHARED.AssemblyInfoInputs.cache
+D:\Projects\VF_WEB\SHARED\obj\Debug\netcoreapp3.1\SHARED.AssemblyInfo.cs
+D:\Projects\VF_WEB\SHARED\obj\Debug\netcoreapp3.1\SHARED.csproj.CoreCompileInputs.cache
+D:\Projects\VF_WEB\SHARED\obj\Debug\netcoreapp3.1\SHARED.csproj.CopyComplete
+D:\Projects\VF_WEB\SHARED\obj\Debug\netcoreapp3.1\SHARED.dll
+D:\Projects\VF_WEB\SHARED\obj\Debug\netcoreapp3.1\SHARED.pdb

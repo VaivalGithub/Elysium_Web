@@ -1,0 +1,91 @@
+﻿@using System.IO
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="#" class="brand-link">
+        <img src="~/img/logo.png" alt="Logo" class="brand-image img-circle"
+             style="opacity: .8">
+        <span class="brand-text font-weight-light">Vulcan Forged</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            @* <div class="image">
+                    <img src="img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                </div>*@
+            <div class="info">
+                <a href="#" class="d-block"> @ViewBag.UserName</a>
+            </div>
+        </div>
+
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                @{
+
+                    //string ViewDirectory = @"D:/Projects/Elysium_Web/Elysium.Web/Views";
+                    string ViewDirectory = Configuration["Paths:VIEWS_PATH"]; ;
+
+                    foreach (string file in Directory.GetDirectories(
+                             ViewDirectory,
+                            "*",
+                            SearchOption.AllDirectories)
+                            )
+
+
+                    //foreach (var file in Directory.GetDirectories(
+                    //                         $@"{Directory.GetParent("~").Parent.FullName}\VulcanForged.WEB\Views", "*", SearchOption.AllDirectories)
+                    //                         )
+                    {
+
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-tachometer-alt"></i>
+                                <p>
+                                    @{ var folderName = new DirectoryInfo(file).Name; }
+                                    @folderName
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+
+
+                            @foreach (var item in Directory.GetFiles(file))
+                            {
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item">
+                                        @{
+
+                                            var activeClass = (item == Context.Request.Query["filePath"].ToString()) ? "nav-link active" : "nav-link";
+
+                                        }
+                                        <a asp-action="Page" asp-controller="Home" asp-route-filePath=@item class=@activeClass>
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>@System.IO.Path.GetFileNameWithoutExtension(item) </p>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            }
+                        </li>
+                    }
+                }
+
+                <li class="nav-item ">
+                    <a asp-action="ShowImages" asp-controller="Home" class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            Images
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <!-- /.sidebar -->
+</aside>
+

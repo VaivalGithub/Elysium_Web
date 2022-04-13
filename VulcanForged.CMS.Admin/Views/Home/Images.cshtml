@@ -1,0 +1,140 @@
+﻿@using System.IO;
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/AdminLTE/_Layout.cshtml";
+
+}
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+
+                    <h1>Upload Image</h1>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content h-100">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    @using (Html.BeginForm("UploadFiles", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+
+
+                        <div class="form-horizontal">
+                            <hr />
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="file" id="img" name="img" accept="image/*">
+                                    <input type="submit" value="Upload" class="btn btn-primary" />
+                                </div>
+                            </div>
+
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th style="width: 10px">#</th>
+                                <th>Image Path</th>
+                                <th>Image</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int counter = 0;
+
+                                //string ViewDirectory = @"D:\\Projects\\Elysium_Web\\Elysium.Web\\wwwroot\\images";
+                                string ViewDirectory = Configuration["Paths:IMAGES_PATH"];
+
+
+                                foreach (string file in Directory.GetFiles(
+                                                                            ViewDirectory,
+                                                                            "*",
+                                                                            SearchOption.AllDirectories)
+                                                                        )
+
+                                @*foreach (var file in Directory.GetFiles(
+                                        $@"{Directory.GetParent("~").Parent.FullName}\VulcanForged.WEB\wwwroot\assets\images", "*", SearchOption.AllDirectories)
+                                    )*@
+                                {
+
+
+                                    counter++;
+                                    string[] splitPath = file.Split(System.IO.Path.DirectorySeparatorChar);
+                                    int start = 0;
+                                    foreach (string s in splitPath)
+                                    {
+                                        if (s == "images")
+                                            break;
+                                        else
+                                            start++;
+                                    }
+                                    string virtualPath = $@"{ViewBag.BaseUrl}";
+                                    for (int i = start; start < splitPath.Length; start++)
+                                    {
+                                        virtualPath += '/' + splitPath[start];
+                                    }
+                                    <tr>
+                                        <td>@counter</td>
+                                        <td class="table-cell">@virtualPath</td>
+                                        <td><div class="text-center mx-auto" style="width: 100px;"><img class="img-fluid" src='@virtualPath'></div></td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- ./row -->
+    </section>
+    <!-- /.content -->
+</div>
+@section JS_Scripts {
+    <script>
+        $('#example').DataTable({
+            "paging": true,
+            "lengthChange": false,
+            "searching": true,
+            "sorting": false,
+            "autoWidth": true,
+            "responsive": true,
+        });
+        document.querySelectorAll(".table-cell").forEach(function (elm) {
+            elm.addEventListener("click", function (e) {
+
+                var copyText = e.target.textContent;
+                const el = document.createElement('textarea');
+                el.value = copyText;
+                document.body.appendChild(el);
+                el.select();
+                document.execCommand('copy');
+                document.body.removeChild(el);
+
+
+                /* Alert the copied text */
+                toastr.success("Copied" + el.value)
+
+            });
+
+        })
+
+    </script>
+
+}
