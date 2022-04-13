@@ -696,12 +696,7 @@ D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\scopedcss\bundle\Ely
 D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Elysium.Web.TagHelpers.input.cache
 D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Elysium.Web.TagHelpers.output.cache
 D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Elysium.Web.RazorCoreGenerate.cache
-D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
-D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Community.cshtml.g.cs
-D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
-D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Developer.cshtml.g.cs
 D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -714,5 +709,10 @@ D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Elysium.Web.csproj.C
 D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Elysium.Web.dll
 D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Elysium.Web.pdb
 D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Elysium.Web.genruntimeconfig.cache
-D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Blog.cshtml.g.cs
-D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\BlogDetail.cshtml.g.cs
+D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
+D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Detail.cshtml.g.cs
+D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Index.cshtml.g.cs
+D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Community\Index.cshtml.g.cs
+D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Developer\Index.cshtml.g.cs
+D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\Privacy\Index.cshtml.g.cs
