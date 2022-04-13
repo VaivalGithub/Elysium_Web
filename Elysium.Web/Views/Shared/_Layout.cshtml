@@ -12,51 +12,59 @@
 </head>
 <body>
     <div class="wrapper">
+
         <header id="header">
-            <nav class="navbar navbar-dark navbar-expand-xl py-2">
+            <nav class="navbar navbar-dark navbar-expand-lg py-2">
                 <div class="container position-relative">
-                    <button class="navbar-toggler border-0 p-0 shadow-none" type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#MenuForMobile" aria-controls="MenuForMobile"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/Home/Index">
                         <img src="/images/logo.png" alt="Logo" class="img-fluid" />
                     </a>
-                    <div class="navbar-collapse collapse">
-                        <ul class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item me-2 me-md-4">
+                    <button class="navbar-toggler shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Menu" aria-controls="Menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="Menu" class="navbar-collapse collapse p-4 p-lg-0">
+                        <div class="d-flex justify-content-between">
+                            <button class="navbar-toggler shadow-none border-0 p-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Menu" aria-controls="Menu" aria-expanded="false" aria-label="Toggle navigation">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19.357" height="19.357" viewBox="0 0 19.357 19.357">
+                                    <path id="close" d="M24.973,84.781l8.5-8.5a.688.688,0,1,0-.972-.973L24,83.808l-8.5-8.5a.688.688,0,0,0-.973.973l8.505,8.5-8.505,8.5a.688.688,0,0,0,.973.973l8.5-8.5,8.505,8.5a.688.688,0,1,0,.972-.973Z" transform="translate(-14.322 -75.102)" fill="#fff"></path>
+                                </svg>
+                            </button>
+                            <a class="BtnGreen text-uppercase py-2 px-3 rounded-pill d-inline-block d-lg-none" href="#">
+                                GET STARTED
+                            </a>
+                        </div>
+                        <ul class="navbar-nav align-items-lg-center ms-auto">
+                            <li class="nav-item me-2 me-lg-2 me-xl-4 pt-2 pt-lg-0">
                                 <a id="Technology" class="nav-link text-uppercase" href="/Home/Index">
                                     TECHNOLOGY
                                 </a>
                             </li>
-                            <li class="nav-item me-2 me-md-4">
-                                <a id="Community" class="nav-link text-uppercase" href="/Home/Community">
+                            <li class="nav-item me-2 me-lg-2 me-xl-4 pt-2 pt-lg-0">
+                                <a id="Community" class="nav-link text-uppercase" href="/Community">
                                     COMMUNITY
                                 </a>
                             </li>
-                            <li class="nav-item me-2 me-md-4">
-                                <a id="About" class="nav-link text-uppercase" href="/Home/About">
+                            <li class="nav-item me-2 me-lg-2 me-xl-4 pt-2 pt-lg-0">
+                                <a id="About" class="nav-link text-uppercase" href="/About">
                                     ABOUT
                                 </a>
                             </li>
-                            <li class="nav-item me-2 me-md-4">
-                                <a id="Developer" class="nav-link text-uppercase" href="/Home/Developer">
+                            <li class="nav-item me-2 me-lg-2 me-xl-4 pt-2 pt-lg-0">
+                                <a id="Developer" class="nav-link text-uppercase" href="/Developer">
                                     DEVELOPER
                                 </a>
                             </li>
-                            <li class="nav-item me-2 me-md-4">
-                                <a id="Blog" class="nav-link text-uppercase" href="/Home/Blog">
+                            <li class="nav-item me-2 me-lg-2 me-xl-4 pt-2 pt-lg-0">
+                                <a id="Blog" class="nav-link text-uppercase" href="/Blog">
                                     BLOG
                                 </a>
                             </li>
-                            <li class="nav-item me-2 me-md-4">
-                                <a id="Contact" class="nav-link text-uppercase" href="/Home/Contact">
+                            <li class="nav-item me-2 me-lg-2 me-xl-4 pt-2 pt-lg-0">
+                                <a id="Contact" class="nav-link text-uppercase" href="/Contact">
                                     CONTACT
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item pt-2 pt-lg-0 d-none d-lg-inline-block">
                                 <a class="BtnGreen text-uppercase py-2 px-3 rounded-pill d-inline-block" href="#">
                                     GET STARTED
                                 </a>
@@ -71,17 +79,17 @@
             <div class="container">
                 <div class="border-top border-bottom py-5">
                     <div class="row pt-5">
-                        <div class="col-md-3">
-                            <img src="/images/logo-white.png" alt="Logo" class="img-fluid d-block mb-4" />
+                        <div class="col-md-3 mb-5 mb-md-0">
+                            <img src="/images/logo-white.png" alt="Logo" class="img-fluid d-block mb-2 mb-md-4" />
                             <a class="" target="_blank" href="#"><i class="icon-facebook Fsize_42"></i></a>
                             <a class="" target="_blank" href="#"><i class="icon-twitter Fsize_42"></i></a>
                             <a class="" target="_blank" href="#"><i class="icon-instagram Fsize_42"></i></a>
                             <a class="" target="_blank" href="#"><i class="icon-linkedin Fsize_42"></i></a>
                         </div>
-                        <div class="col-md-2 ms-md-auto">
-                            <h6 class="mb-4">ELYSIUM</h6>
+                        <div class="col-md-2 mb-5 mb-md-0 ms-md-auto">
+                            <h6 class="mb-2 mb-md-4">ELYSIUM</h6>
                             <ul class="list-unstyled mb-0">
-                                <li class="py-1"><a href="/Home/About">About</a></li>
+                                <li class="py-1"><a href="/About">About</a></li>
                                 <li class="py-1"><a href="#">FAQ</a></li>
                                 <li class="py-1"><a href="#">Support</a></li>
                                 <li class="py-1"><a href="#">Build</a></li>
@@ -89,10 +97,10 @@
                                 <li class="py-1"><a href="#">Careers</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-2 ms-md-auto">
-                            <h6 class="mb-4">TECHNOLOGY</h6>
+                        <div class="col-md-2 mb-5 mb-md-0 ms-md-auto">
+                            <h6 class="mb-2 mb-md-4">TECHNOLOGY</h6>
                             <ul class="list-unstyled mb-0">
-                                <li class="py-1"><a href="#">Technology</a></li>
+                                <li class="py-1"><a href="/Home">Technology</a></li>
                                 <li class="py-1"><a href="#">Roadmap</a></li>
                                 <li class="py-1"><a href="#">Token</a></li>
                                 <li class="py-1"><a href="#">Telemetry</a></li>
@@ -101,9 +109,9 @@
                             </ul>
                         </div>
                         <div class="col-md-2 ms-md-auto">
-                            <h6 class="mb-4">COMMUNITY</h6>
+                            <h6 class="mb-2 mb-md-4">COMMUNITY</h6>
                             <ul class="list-unstyled mb-0">
-                                <li class="py-1"><a href="/Home/Community">Community</a></li>
+                                <li class="py-1"><a href="/Community">Community</a></li>
                                 <li class="py-1"><a href="#">Documentation</a></li>
                                 <li class="py-1"><a href="#">Brand Assets</a></li>
                                 <li class="py-1"><a href="/Home/Blog">Blog</a></li>
@@ -113,11 +121,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex justify-content-between py-5">
+                <div class="d-sm-flex justify-content-between py-3 py-sm-5">
                     © 2022 Elysium
-                    <ul class="d-inline-flex list-unstyled mb-0">
+                    <ul class="d-inline-flex list-unstyled mb-0 pt-2 pt-sm-0">
                         <li class="me-3"><a href="#">Disclaimer</a></li>
-                        <li class="me-3"><a href="#">Privacy</a></li>
+                        <li class="me-3"><a href="/Privacy">Privacy</a></li>
                         <li><a href="#">Cookie Settings</a></li>
                     </ul>
                 </div>
@@ -126,18 +134,6 @@
 
     </div>
 
-
-    <div class="container">
-
-        @RenderBody()
-
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - Elysium.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
     <script src="https://kit.fontawesome.com/4f472b9b00.js" crossorigin="anonymous"></script>
     <script src="~/js/jquery.min.js"></script>
     <script src="~/js/bootstrap.bundle.min.js"></script>
@@ -148,8 +144,8 @@
 
 <script>
 
-     var currentLocation = window.location.href;
-    if (currentLocation.indexOf("Index") >= 0) {
+    var currentLocation = window.location.href;
+    if (currentLocation.indexOf("Home") >= 0) {
         $("#Technology").addClass('active');
     }
     else if (currentLocation.indexOf("Community") >= 0) {
