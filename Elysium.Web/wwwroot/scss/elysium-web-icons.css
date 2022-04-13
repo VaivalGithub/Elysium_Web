@@ -68,3 +68,6 @@
 .icon-secure-network:before { content: '\e80b'; } /* '' */
 .icon-security:before { content: '\e80c'; } /* '' */
 .icon-twitter:before { content: '\e80d'; } /* '' */
+.icon-help:before { content: '\e80e'; } /* '' */
+.icon-docs:before { content: '\e80f'; } /* '' */
+.icon-email:before { content: '\e810'; } /* '' */

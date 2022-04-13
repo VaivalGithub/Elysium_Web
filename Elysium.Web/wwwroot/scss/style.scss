@@ -93,91 +93,37 @@ header {
 }
 
 #Banner {
-	background: url("../images/bg-globe.jpg") no-repeat right center / auto 100%;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: auto 100%;
 	height: calc(100vh - 103px);
-	&.securitysection{
-		padding-top: 100px;
-	}
-
+	min-height: 500px;
 	h1 {
 		font-size: 132px;
 	}
 }
 
-#DataAcrossBlockchain {
-	&.RadialGradient {
-		&:before {
-			top:-250px;
-		}
-	}
-}
-#InnovateInspire{
-	padding-bottom: 100px;
-	.join-btn{
-		padding: 24px 147px;
-		background: #ADA7B7 0% 0% no-repeat padding-box;
-		border-radius: 12px;
-		color: #140533;
-	}
-}
-#StoreSecure {
-	padding-top: 150px;
-	&.RadialGradient {
-		&:before {
-			top:-250px;
-		}
-	}
-}
-#EthereumAccessible {
-	padding-top: 300px !important;
+#EthereumAccessible,
+#ElysiumGrow {
 	&.RadialGradient {
 		&:before {
 			max-width: 474px;
 			height: 430px;
-			top:-132px;
+			top: -132px;
 			right: 21%;
 		}
-	}
-}
-#BuildingElysium{
-	&.RadialGradient {
-		&:before {
-			max-width: 474px;
-			height: 430px;
-			top:-132px;
-			right: 21%;
-		}
-	}
-}
-#NetworkGlossary {
-	.Background {
-		background: transparent linear-gradient(129deg, #7F2E8D 0%, #320C73 100%) 0% 0% no-repeat padding-box;
-		border-radius: 20px;
 	}
 }
 
 #BestTechnology {
-	background-color: rgba(87,67,128,0.25);
-	margin-top:-150px;
-	padding-top:350px;
-	padding-bottom:100px;
-}
-#Talk{
-	background-color: rgba(87,67,128,0.25);
-	padding-top:100px;
-	padding-bottom:100px;
-}
-#ElysiumSubstrate{
-	background-color: rgba(87,67,128,0.25);
-	padding-top:100px;
-	padding-bottom:100px;
-	a{
-		color:#9FC131;
-	}
+	background-color: rgba(87, 67, 128, 0.25);
+	margin-top: -150px;
+	padding-top: 350px;
+	padding-bottom: 100px;
 }
 #ProcessingTransactions {
-	background-color: rgba(87,67,128,0.25);
-	padding-bottom:60px;
+	background-color: rgba(87, 67, 128, 0.25);
+	padding-bottom: 60px;
 }
 #GroundbreakingTechnology {
 	.min-height-68 {
@@ -187,47 +133,164 @@ header {
 #BuildingElysium {
 	&.RadialGradient {
 		&:before {
-			top:-180px;
+			top: -180px;
+		}
+	}
+	.ImgTeamBox {
+		.ImgTeam {
+			max-width: 424px;
+			max-height: 424px;
+			border-radius: 20px;
+		}
+		&:before {
+			content: "";
+			@include absolute(0, 0, 0, 0);
+			background-color: rgba($BgPurple, 0.8);
+			mix-blend-mode: screen;
+			border-radius: 20px;
+			z-index: 1;
 		}
 	}
 }
-#ContactForm
-{
+#TalkTown {
+	background-color: rgba(87, 67, 128, 0.25);
+	.NewsImg {
+		max-width: 200px;
+		height: 140px;
+	}
+}
+#ElysiumTogether,
+#ParachainSubstrate {
+	&.RadialGradient {
+		&:before {
+			max-width: 430px;
+			height: 430px;
+			top: -100px;
+			left: 0;
+			right: 0;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
+#ElysiumSubstrate {
+	background-color: rgba(#574380, 0.25);
+	.SubstrateGradientBox {
+		background: linear-gradient(to right, rgba(173, 45, 181, 0.6), rgba(55, 42, 81, 1));
+		padding: 1px;
+		> div {
+			background-color: #140533;
+			&:before {
+				background: transparent radial-gradient(closest-side at 30% 50%, #FF16CB 0%, #24144600 100%) 0% 0% no-repeat padding-box;
+				mix-blend-mode: color-dodge;
+				opacity: 0.7;
+				content: "";
+				@include absolute(0, 0, 0, -70%);
+			}
+		}
+	}
+}
+#InnovateInspire {
+	.join-btn {
+		border: solid 2px transparent;
+		background-color: #ADA7B7;
+		color: #140533;
+		&:hover {
+			border: solid 2px rgba(173, 167, 183, 0.2);
+			background-color: rgba(173, 167, 183, 0.1);
+			color: #ADA7B7;
+		}
+	}
+}
+#ElysiumGrow {
+	.GradientBox {
+		min-height: 397px;
+		&:before {
+			border-radius: 0.75rem;
+		}
+		&:after {
+			background-repeat: no-repeat;
+			background-position: top center;
+			background-size: 100% auto;
+			content: "";
+			@include absolute(0,0,0,0);
+			@include transition(all 0.2s);
+		}
+		p {
+			height: 0;
+			opacity: 0;
+			@include transition(all 0.3s);
+		}
+		&:hover {
+			p {
+				height: 60px;
+				opacity: 1;
+				margin-top: 1rem;
+			}
+			&:after {
+				transform: scale(1.1);
+			}
+		}
+		&.Discord {
+			&:after {
+				background-image: url('../images/bg-discord.png');
+			}
+		}
+		&.Github {
+			&:after {
+				background-image: url('../images/bg-github.png');
+			}
+		}
+		&.Reddit {
+			&:after {
+				background-image: url('../images/bg-reddit.png');
+			}
+		}
+		&.Twitter {
+			&:after {
+				background-image: url('../images/bg-twitter.png');
+			}
+		}
+	}
+}
+#BecomeValidator {
+	background-color: rgba(#574380, 0.25);
+	margin-bottom: -180px;
+	padding-bottom: 250px;
+	&.RadialGradient {
+		&:before {
+			max-width: 430px;
+			height: 430px;
+			left: 120px;
+			top: -15px;
+		}
+	}
+}
+#UpcomingEvent {
+	background: url("../images/bnr-event.png") no-repeat center top / cover;
+	&:before {
+		content: "";
+		@include absolute(0, 0, 0, 0);
+		background-color: rgba($BgPurple, 0.5);
+	}
+}
+#ContactForm {
 	padding: 100px 0px;
 	background-color: rgba(87, 67, 128, 0.25);
-input,textarea{
-	background: #1E103C 0% 0% no-repeat padding-box;
-	border: 1px solid #3B2864;
-	border-radius: 5px;
-	color: #544769;
-	font-size: 18px;
-	margin-bottom: 24px;
-	&:focus {
-		outline: 0;
-		box-shadow: none;
-	}
 }
-	label{
-		padding-bottom: 10px;
+#Subscribe {
+	.form-control {
+		padding-left: 70px;
+		min-height: 66px;
+		font-size: 18px;
+		color:#7F7B84;
+		@include placeholder {
+			color:#7F7B84;
+			font-size: 18px;
+		}
 	}
-
-}
-#ElysiumAmbassador{
-	.echo-link{
-		color:#9FC131;
-		text-decoration: underline;
-	}
-}
-#ElysiumGrow{
-	.grow-inner-card{
-		background-color: blueviolet;
-		min-height: 397px;
-		background-repeat: no-repeat;
-		&:hover h6{
-
-				display: block;
-			}
-
+	.icon-email {
+		color:#7F7B84;
 	}
 }
 footer {
@@ -243,10 +306,170 @@ footer {
 @include media-breakpoint-down(xxl) {
 }
 @include media-breakpoint-down(xl) {
+	h2 {
+		font-size: 50px;
+	}
+	h3 {
+		font-size: 38px;
+	}
+	#ElysiumGrow {
+		.GradientBox {
+			min-height: 300px;
+		}
+	}
 }
 @include media-breakpoint-down(lg) {
+	header {
+		.navbar {
+			.navbar-collapse {
+				@include transition(all 0.3s ease-in-out);
+				@include fixed(0, 0, 0, 0);
+				height: 100vh;
+				width: 100%;
+				background-color: #202022;
+				opacity: 1;
+				z-index: 2;
+				&.show,
+				&.collapsing {
+					left: 0%;
+					opacity: 1;
+
+				}
+				&.collapse:not(.show) {
+					display: inherit;
+					left: -100%;
+					right: auto;
+					opacity: 0;
+				}
+			}
+		}
+	}
+	#Banner {
+		h1 {
+			font-size: 90px;
+		}
+	}
+	#ElysiumGrow {
+		.GradientBox {
+			min-height: 250px;
+			.Fsize_24 {
+				font-size: 18px;
+			}
+			p {
+				font-size: 14px;
+			}
+		}
+	}
 }
 @include media-breakpoint-down(md) {
+	#Banner {
+		h1 {
+			font-size: 70px;
+		}
+		.Fsize_56 {
+			font-size: 42px;
+		}
+	}
+	#GroundbreakingTechnology {
+		.min-height-68 {
+			min-height: auto;
+		}
+	}
+	#Blog {
+		h4 {
+			font-size: 26px;
+		}
+		h5 {
+			&.Fsize_24 {
+				font-size: 20px;
+			}
+		}
+	}
+	#BlogDetail {
+		h3 {
+			&.Fsize_48 {
+				font-size: 36px;
+			}
+		}
+	}
+
+	#InnovateInspire {
+		h3.Fsize_48 {
+			font-size: 36px;
+		}
+	}
 }
 @include media-breakpoint-down(sm) {
+	body {
+		font-size: 16px;
+	}
+
+	h2,
+	.Fsize_42 {
+		font-size: 36px;
+	}
+
+	h3 {
+		font-size: 28px;
+	}
+
+	h5 {
+		font-size: 22px;
+	}
+
+	#Banner {
+		min-height: 300px;
+		h1 {
+			font-size: 40px;
+		}
+		.Fsize_56,
+		.Fsize_32 {
+			font-size: 24px;
+		}
+	}
+
+	#BestTechnology {
+		padding-top: 200px;
+		padding-bottom: 50px;
+	}
+	#Blog {
+		h4 {
+			font-size: 22px;
+		}
+		h5 {
+			&.Fsize_24 {
+				font-size: 18px;
+			}
+		}
+	}
+	#BlogDetail,
+	#ElysiumAmbassador {
+		h3 {
+			&.Fsize_48 {
+				font-size: 28px;
+			}
+		}
+	}
+	#InnovateInspire {
+		.join-btn {
+			.Fsize_24 {
+				font-size: 20px;
+			}
+		}
+	}
+	#ElysiumGrow {
+		.GradientBox {
+			&::after {
+				background-size: cover;
+			}
+		}
+	}
+
+	#Subscribe {
+		h3 {
+			&.Fsize_42 {
+				font-size: 26px;
+			}
+		}
+	}
 }

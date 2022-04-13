@@ -3989,7 +3989,7 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem; }
@@ -4050,6 +4050,9 @@ textarea.form-control-lg {
   margin-bottom: -0.25rem;
   margin-left: -0.25rem;
   border-bottom: 0; }
+  .card-header-tabs .nav-link.active {
+    background-color: transparent;
+    border-bottom-color: transparent; }
 
 .card-header-pills {
   margin-right: -0.25rem;
@@ -4256,10 +4259,10 @@ textarea.form-control-lg {
 .page-link {
   position: relative;
   display: block;
-  color: #0d6efd;
+  color: #ADA7B7;
   text-decoration: none;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  background-color: transparent;
+  border: 1px solid transparent;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4272,9 +4275,9 @@ textarea.form-control-lg {
       transition: none; } }
   .page-link:hover {
     z-index: 2;
-    color: #0a58ca;
-    background-color: #e9ecef;
-    border-color: #dee2e6; }
+    color: #fff;
+    background-color: transparent;
+    border-color: #676174; }
   .page-link:focus {
     z-index: 3;
     color: #0a58ca;
@@ -4288,18 +4291,18 @@ textarea.form-control-lg {
 
 .page-item.active .page-link {
   z-index: 3;
-  color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd; }
+  color: ADA7B7;
+  background-color: transparent;
+  border-color: #676174; }
 
 .page-item.disabled .page-link {
-  color: #6c757d;
+  color: ADA7B7;
   pointer-events: none;
-  background-color: #fff;
-  border-color: #dee2e6; }
+  background-color: transparent;
+  border-color: transparent; }
 
 .page-link {
-  padding: 0.375rem 0.75rem; }
+  padding: 0.75rem 1.25rem; }
 
 .page-item:first-child .page-link {
   border-top-left-radius: 0.25rem;
@@ -9363,17 +9366,11 @@ input:focus, a:focus, button:focus, textarea:focus {
 .Fsize_18 {
   font-size: 18px; }
 
-.Fsize_22 {
-  font-size: 22px; }
-
 .Fsize_24 {
   font-size: 24px; }
 
 .Fsize_32 {
   font-size: 30px; }
-
-.Fsize_36 {
-  font-size: 36px; }
 
 .Fsize_42 {
   font-size: 42px; }
@@ -9383,9 +9380,6 @@ input:focus, a:focus, button:focus, textarea:focus {
 
 .Fsize_56 {
   font-size: 56px; }
-
-.Fsize_72 {
-  font-size: 72px; }
 
 .Fsize_80 {
   font-size: 80px; }
@@ -9398,6 +9392,9 @@ input:focus, a:focus, button:focus, textarea:focus {
 
 .z-index-3 {
   z-index: 3; }
+
+.z-index-4 {
+  z-index: 4; }
 
 .z-index-5 {
   z-index: 5; }
@@ -9480,11 +9477,35 @@ input:focus, a:focus, button:focus, textarea:focus {
 .RobotoBold {
   font-family: "Roboto Bold"; }
 
+.GreyColor {
+  color: #ADA7B7; }
+
+.GreenColor {
+  color: #9FC131; }
+
+.ProfileImg {
+  width: 36px;
+  height: 36px; }
+
+.BlogPosts .figure img {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.BlogPosts .figure:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1); }
+
 .TextGradient {
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(#78DBA3), color-stop(55%, #25A7DE), to(#F20587)) 0% 0% no-repeat padding-box;
-  background: transparent -webkit-linear-gradient(top, #78DBA3 0%, #25A7DE 55%, #F20587 100%) 0% 0% no-repeat padding-box;
-  background: transparent -o-linear-gradient(top, #78DBA3 0%, #25A7DE 55%, #F20587 100%) 0% 0% no-repeat padding-box;
-  background: transparent linear-gradient(180deg, #78DBA3 0%, #25A7DE 55%, #F20587 100%) 0% 0% no-repeat padding-box;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#78DBA3), color-stop(35%, #25A7DE), to(#F20587)) 0% 0% no-repeat padding-box;
+  background: transparent -webkit-linear-gradient(top, #78DBA3 0%, #25A7DE 35%, #F20587 100%) 0% 0% no-repeat padding-box;
+  background: transparent -o-linear-gradient(top, #78DBA3 0%, #25A7DE 35%, #F20587 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #78DBA3 0%, #25A7DE 35%, #F20587 100%) 0% 0% no-repeat padding-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -9508,6 +9529,12 @@ input:focus, a:focus, button:focus, textarea:focus {
     z-index: 0;
     border-radius: 0.75rem; }
 
+.GradientBackground {
+  background: transparent -webkit-linear-gradient(321deg, #7F2E8D 0%, #320C73 100%) 0% 0% no-repeat padding-box;
+  background: transparent -o-linear-gradient(321deg, #7F2E8D 0%, #320C73 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(129deg, #7F2E8D 0%, #320C73 100%) 0% 0% no-repeat padding-box;
+  border-radius: 20px; }
+
 .RadialGradient {
   position: relative; }
   .RadialGradient:before {
@@ -9520,15 +9547,17 @@ input:focus, a:focus, button:focus, textarea:focus {
     max-width: 626px;
     width: 100%;
     height: 569px;
-    -webkit-transform: matrix(0, 1, -1, 0, 0, 0);
-    -ms-transform: matrix(0, 1, -1, 0, 0, 0);
-    transform: matrix(0, 1, -1, 0, 0, 0);
+    /*transform: matrix(0, 1, -1, 0, 0, 0);*/
     background: transparent -webkit-radial-gradient(50% 50%, closest-side, #FA45C1 0%, #CB389D 21%, #571843 67%, #000000 100%) 0% 0% no-repeat padding-box;
     background: transparent -o-radial-gradient(50% 50%, closest-side, #FA45C1 0%, #CB389D 21%, #571843 67%, #000000 100%) 0% 0% no-repeat padding-box;
     background: transparent radial-gradient(closest-side at 50% 50%, #FA45C1 0%, #CB389D 21%, #571843 67%, #000000 100%) 0% 0% no-repeat padding-box;
     mix-blend-mode: color-dodge;
     opacity: 0.42;
     z-index: 0; }
+  .RadialGradient.top-minus:before {
+    top: -250px; }
+  .RadialGradient.left-minus:before {
+    left: -250px; }
 
 .btn {
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -9572,9 +9601,39 @@ input:focus, a:focus, button:focus, textarea:focus {
     border-color: rgba(159, 193, 49, 0.6);
     color: #fff; }
 
-.form-control::-moz-placeholder,
-.form-select::-moz-placeholder {
-  opacity: 1; }
+.form-control,
+.form-select {
+  background-color: #1E103C;
+  border-color: #3B2864;
+  font-size: 18px;
+  color: #fff;
+  min-height: 48px; }
+  .form-control:focus,
+  .form-select:focus {
+    background-color: #1E103C;
+    border-color: #1E103C;
+    color: #fff; }
+  .form-control::-webkit-input-placeholder,
+  .form-select::-webkit-input-placeholder {
+    font-size: 18px;
+    color: #544769; }
+  .form-control::-moz-placeholder,
+  .form-select::-moz-placeholder {
+    opacity: 1;
+    font-size: 18px;
+    color: #544769; }
+  .form-control:-moz-placeholder,
+  .form-select:-moz-placeholder {
+    font-size: 18px;
+    color: #544769; }
+  .form-control:-ms-input-placeholder,
+  .form-select:-ms-input-placeholder {
+    font-size: 18px;
+    color: #544769; }
+  .form-control.placeholder,
+  .form-select.placeholder {
+    font-size: 18px;
+    color: #544769; }
 
 .form-select {
   /*background-image: url("../images/arrow-down.svg");
@@ -9712,6 +9771,18 @@ textarea:-ms-input-placeholder {
   content: '\e80d'; }
 
 /* '' */
+.icon-help:before {
+  content: '\e80e'; }
+
+/* '' */
+.icon-docs:before {
+  content: '\e80f'; }
+
+/* '' */
+.icon-email:before {
+  content: '\e810'; }
+
+/* '' */
 @font-face {
   font-family: "Archivo Extra Light";
   src: url("../fonts/Archivo-ExtraLight.eot");
@@ -9815,66 +9886,26 @@ header .navbar .navbar-collapse > ul {
       color: #9FC131; }
 
 #Banner {
-  background: url("../images/bg-globe.jpg") no-repeat right center/auto 100%;
-  height: calc(100vh - 103px); }
-  #Banner.securitysection {
-    padding-top: 100px; }
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto 100%;
+  height: calc(100vh - 103px);
+  min-height: 500px; }
   #Banner h1, #Banner .h1 {
     font-size: 132px; }
 
-#DataAcrossBlockchain.RadialGradient:before {
-  top: -250px; }
-
-#InnovateInspire {
-  padding-bottom: 100px; }
-  #InnovateInspire .join-btn {
-    padding: 24px 147px;
-    background: #ADA7B7 0% 0% no-repeat padding-box;
-    border-radius: 12px;
-    color: #140533; }
-
-#StoreSecure {
-  padding-top: 150px; }
-  #StoreSecure.RadialGradient:before {
-    top: -250px; }
-
-#EthereumAccessible {
-  padding-top: 300px !important; }
-  #EthereumAccessible.RadialGradient:before {
-    max-width: 474px;
-    height: 430px;
-    top: -132px;
-    right: 21%; }
-
-#BuildingElysium.RadialGradient:before {
+#EthereumAccessible.RadialGradient:before,
+#ElysiumGrow.RadialGradient:before {
   max-width: 474px;
   height: 430px;
   top: -132px;
   right: 21%; }
-
-#NetworkGlossary .Background {
-  background: transparent -webkit-linear-gradient(321deg, #7F2E8D 0%, #320C73 100%) 0% 0% no-repeat padding-box;
-  background: transparent -o-linear-gradient(321deg, #7F2E8D 0%, #320C73 100%) 0% 0% no-repeat padding-box;
-  background: transparent linear-gradient(129deg, #7F2E8D 0%, #320C73 100%) 0% 0% no-repeat padding-box;
-  border-radius: 20px; }
 
 #BestTechnology {
   background-color: rgba(87, 67, 128, 0.25);
   margin-top: -150px;
   padding-top: 350px;
   padding-bottom: 100px; }
-
-#Talk {
-  background-color: rgba(87, 67, 128, 0.25);
-  padding-top: 100px;
-  padding-bottom: 100px; }
-
-#ElysiumSubstrate {
-  background-color: rgba(87, 67, 128, 0.25);
-  padding-top: 100px;
-  padding-bottom: 100px; }
-  #ElysiumSubstrate a {
-    color: #9FC131; }
 
 #ProcessingTransactions {
   background-color: rgba(87, 67, 128, 0.25);
@@ -9886,33 +9917,164 @@ header .navbar .navbar-collapse > ul {
 #BuildingElysium.RadialGradient:before {
   top: -180px; }
 
+#BuildingElysium .ImgTeamBox .ImgTeam {
+  max-width: 424px;
+  max-height: 424px;
+  border-radius: 20px; }
+
+#BuildingElysium .ImgTeamBox:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(20, 5, 51, 0.8);
+  mix-blend-mode: screen;
+  border-radius: 20px;
+  z-index: 1; }
+
+#TalkTown {
+  background-color: rgba(87, 67, 128, 0.25); }
+  #TalkTown .NewsImg {
+    max-width: 200px;
+    height: 140px; }
+
+#ElysiumTogether.RadialGradient:before,
+#ParachainSubstrate.RadialGradient:before {
+  max-width: 430px;
+  height: 430px;
+  top: -100px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+#ElysiumSubstrate {
+  background-color: rgba(87, 67, 128, 0.25); }
+  #ElysiumSubstrate .SubstrateGradientBox {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(173, 45, 181, 0.6)), to(#372a51));
+    background: -webkit-linear-gradient(left, rgba(173, 45, 181, 0.6), #372a51);
+    background: -o-linear-gradient(left, rgba(173, 45, 181, 0.6), #372a51);
+    background: linear-gradient(to right, rgba(173, 45, 181, 0.6), #372a51);
+    padding: 1px; }
+    #ElysiumSubstrate .SubstrateGradientBox > div {
+      background-color: #140533; }
+      #ElysiumSubstrate .SubstrateGradientBox > div:before {
+        background: transparent -webkit-radial-gradient(30% 50%, closest-side, #FF16CB 0%, #24144600 100%) 0% 0% no-repeat padding-box;
+        background: transparent -o-radial-gradient(30% 50%, closest-side, #FF16CB 0%, #24144600 100%) 0% 0% no-repeat padding-box;
+        background: transparent radial-gradient(closest-side at 30% 50%, #FF16CB 0%, #24144600 100%) 0% 0% no-repeat padding-box;
+        mix-blend-mode: color-dodge;
+        opacity: 0.7;
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: -70%; }
+
+#InnovateInspire .join-btn {
+  border: solid 2px transparent;
+  background-color: #ADA7B7;
+  color: #140533; }
+  #InnovateInspire .join-btn:hover {
+    border: solid 2px rgba(173, 167, 183, 0.2);
+    background-color: rgba(173, 167, 183, 0.1);
+    color: #ADA7B7; }
+
+#ElysiumGrow .GradientBox {
+  min-height: 397px; }
+  #ElysiumGrow .GradientBox:before {
+    border-radius: 0.75rem; }
+  #ElysiumGrow .GradientBox:after {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s; }
+  #ElysiumGrow .GradientBox p {
+    height: 0;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+  #ElysiumGrow .GradientBox:hover p {
+    height: 60px;
+    opacity: 1;
+    margin-top: 1rem; }
+  #ElysiumGrow .GradientBox:hover:after {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
+  #ElysiumGrow .GradientBox.Discord:after {
+    background-image: url("../images/bg-discord.png"); }
+  #ElysiumGrow .GradientBox.Github:after {
+    background-image: url("../images/bg-github.png"); }
+  #ElysiumGrow .GradientBox.Reddit:after {
+    background-image: url("../images/bg-reddit.png"); }
+  #ElysiumGrow .GradientBox.Twitter:after {
+    background-image: url("../images/bg-twitter.png"); }
+
+#BecomeValidator {
+  background-color: rgba(87, 67, 128, 0.25);
+  margin-bottom: -180px;
+  padding-bottom: 250px; }
+  #BecomeValidator.RadialGradient:before {
+    max-width: 430px;
+    height: 430px;
+    left: 120px;
+    top: -15px; }
+
+#UpcomingEvent {
+  background: url("../images/bnr-event.png") no-repeat center top/cover; }
+  #UpcomingEvent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(20, 5, 51, 0.5); }
+
 #ContactForm {
   padding: 100px 0px;
   background-color: rgba(87, 67, 128, 0.25); }
-  #ContactForm input, #ContactForm textarea {
-    background: #1E103C 0% 0% no-repeat padding-box;
-    border: 1px solid #3B2864;
-    border-radius: 5px;
-    color: #544769;
-    font-size: 18px;
-    margin-bottom: 24px; }
-    #ContactForm input:focus, #ContactForm textarea:focus {
-      outline: 0;
-      -webkit-box-shadow: none;
-      box-shadow: none; }
-  #ContactForm label {
-    padding-bottom: 10px; }
 
-#ElysiumAmbassador .echo-link {
-  color: #9FC131;
-  text-decoration: underline; }
+#Subscribe .form-control {
+  padding-left: 70px;
+  min-height: 66px;
+  font-size: 18px;
+  color: #7F7B84; }
+  #Subscribe .form-control::-webkit-input-placeholder {
+    color: #7F7B84;
+    font-size: 18px; }
+  #Subscribe .form-control::-moz-placeholder {
+    opacity: 1;
+    color: #7F7B84;
+    font-size: 18px; }
+  #Subscribe .form-control:-moz-placeholder {
+    color: #7F7B84;
+    font-size: 18px; }
+  #Subscribe .form-control:-ms-input-placeholder {
+    color: #7F7B84;
+    font-size: 18px; }
+  #Subscribe .form-control.placeholder {
+    color: #7F7B84;
+    font-size: 18px; }
 
-#ElysiumGrow .grow-inner-card {
-  background-color: blueviolet;
-  min-height: 397px;
-  background-repeat: no-repeat; }
-  #ElysiumGrow .grow-inner-card:hover h6, #ElysiumGrow .grow-inner-card:hover .h6 {
-    display: block; }
+#Subscribe .icon-email {
+  color: #7F7B84; }
 
 footer a {
   color: #fff; }
@@ -9920,3 +10082,95 @@ footer a {
 /*======================================
 		Responsive START
 ======================================*/
+@media (max-width: 1199.98px) {
+  h2, .h2 {
+    font-size: 50px; }
+  h3, .h3 {
+    font-size: 38px; }
+  #ElysiumGrow .GradientBox {
+    min-height: 300px; } }
+
+@media (max-width: 991.98px) {
+  header .navbar .navbar-collapse {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #202022;
+    opacity: 1;
+    z-index: 2; }
+    header .navbar .navbar-collapse.show, header .navbar .navbar-collapse.collapsing {
+      left: 0%;
+      opacity: 1; }
+    header .navbar .navbar-collapse.collapse:not(.show) {
+      display: inherit;
+      left: -100%;
+      right: auto;
+      opacity: 0; }
+  #Banner h1, #Banner .h1 {
+    font-size: 90px; }
+  #ElysiumGrow .GradientBox {
+    min-height: 250px; }
+    #ElysiumGrow .GradientBox .Fsize_24 {
+      font-size: 18px; }
+    #ElysiumGrow .GradientBox p {
+      font-size: 14px; } }
+
+@media (max-width: 767.98px) {
+  #Banner h1, #Banner .h1 {
+    font-size: 70px; }
+  #Banner .Fsize_56 {
+    font-size: 42px; }
+  #GroundbreakingTechnology .min-height-68 {
+    min-height: auto; }
+  #Blog h4, #Blog .h4 {
+    font-size: 26px; }
+  #Blog h5.Fsize_24, #Blog .Fsize_24.h5 {
+    font-size: 20px; }
+  #BlogDetail h3.Fsize_48, #BlogDetail .Fsize_48.h3 {
+    font-size: 36px; }
+  #InnovateInspire h3.Fsize_48, #InnovateInspire .Fsize_48.h3 {
+    font-size: 36px; } }
+
+@media (max-width: 575.98px) {
+  body {
+    font-size: 16px; }
+  h2, .h2,
+  .Fsize_42 {
+    font-size: 36px; }
+  h3, .h3 {
+    font-size: 28px; }
+  h5, .h5 {
+    font-size: 22px; }
+  #Banner {
+    min-height: 300px; }
+    #Banner h1, #Banner .h1 {
+      font-size: 40px; }
+    #Banner .Fsize_56,
+    #Banner .Fsize_32 {
+      font-size: 24px; }
+  #BestTechnology {
+    padding-top: 200px;
+    padding-bottom: 50px; }
+  #Blog h4, #Blog .h4 {
+    font-size: 22px; }
+  #Blog h5.Fsize_24, #Blog .Fsize_24.h5 {
+    font-size: 18px; }
+  #BlogDetail h3.Fsize_48, #BlogDetail .Fsize_48.h3,
+  #ElysiumAmbassador h3.Fsize_48,
+  #ElysiumAmbassador .Fsize_48.h3 {
+    font-size: 28px; }
+  #InnovateInspire .join-btn .Fsize_24 {
+    font-size: 20px; }
+  #ElysiumGrow .GradientBox::after {
+    background-size: cover; }
+  #Subscribe h3.Fsize_42, #Subscribe .Fsize_42.h3 {
+    font-size: 26px; } }

@@ -2,90 +2,68 @@
     ViewData["Title"] = "Contact";
 }
 <main>
-    <section id="Banner" style="background-image: url(/images/contact-bnr-img.png)">
+    <section id="Banner" style="background-image: url('/images/bnr-contact.png');" class="py-5">
         <div class="container h-100 position-relative z-index-1">
-            <div class="row align-items-center h-100 justify-content-center">
-                <div class="col-md-10 text-center">
-                    <h2 class="ArchivoMedium">
-                        Get in touch with the <br />
-                        <span class="ArchivoBlack">Elysium </span> team
-                    </h2>
-                    <p class="py-3 ArchivoExtraLight Fsize_24">
-                        Let’s catch up over a cup of coffee or <br />
-                        meet up in the virtual world!
-                    </p>
+            <div class="row justify-content-center align-items-center h-100 text-center">
+                <div class="col-md-9 col-lg-8 col-xl-7">
+                    <h2 class="mb-5"><span class="ArchivoLight">Get in touch with the </span> Elysium <span class="ArchivoLight">team </span></h2>
+                    <p class="ArchivoExtraLight Fsize_24 col-md-8 col-lg-7 col-xl-6 mx-auto mb-5">Let’s catch up over a cup of coffee or meet up in the virtual world!</p>
                 </div>
             </div>
         </div>
     </section>
-    <section id="InnovateInspire">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-10 text-center pb-5">
-                    <h3 class="ArchivoBold Fsize_48">
-                        Together We Can <br />
-                        Innovate and Inspire People!
-                    </h3>
-                    <p class="RobotoLight Fsize_24">
-                        Fill this up and gear up for a transformational journey with
-                        us
-                    </p>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <a href="" class="d-inline">
-                        <div class="d-flex align-items-center join-btn me-2 ps-3">
-                            <div class="pe-3">
-                                <img src="/images/icon-docs.svg" alt="" />
-                            </div>
-                            <div>
-                                <h5 class="Fsize_24 RobotoMedium">GENERAL CHAT</h5>
-                                <h6 class="Fsize_16 RobotoRegular">Join the Discord</h6>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="" class="d-inline">
-                        <div class="d-flex align-items-center join-btn me-2 ps-3">
-                            <div class="pe-3">
-                                <img src="/images/icon-help.svg" alt="" />
-                            </div>
-                            <div>
-                                <h5 class="Fsize_24 RobotoMedium">HELP CENTER</h5>
-                                <h6 class="Fsize_16 RobotoRegular">
-                                    Elysium support & help
-                                </h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="ContactForm">
+    <section id="InnovateInspire" class="pb-5 mb-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-10 text-center pb-5">
+                    <h3 class="Fsize_48 mb-2">
+                        Together We Can <br class="d-none d-md-block">
+                        Innovate and Inspire People!
+                    </h3>
+                    <p class="RobotoLight"> Fill this up and gear up for a transformational journey with us </p>
+                </div>
+                <div class="d-md-flex justify-content-center">
+                    <a href="#" class="d-flex align-items-center join-btn py-1 py-sm-3 px-2 px-md-4 px-lg-5 rounded-3 me-md-2 mb-2 mb-md-0 line-height-normal">
+                        <i class="icon-docs Fsize_48 me-2"></i>
+                        <div class="me-lg-5 pe-lg-5">
+                            <span class="ArchivoSemiBold d-block text-uppercase Fsize_24">GENERAL CHAT</span>
+                            <span class="Fsize_16">Join the Discord</span>
+                        </div>
+                    </a>
+                    <a href="#" class="d-flex align-items-center join-btn py-1 py-sm-3 px-2 px-md-4 px-lg-5 rounded-3 line-height-normal">
+                        <i class="icon-help Fsize_48 me-2"></i>
+                        <div class="me-lg-5 pe-lg-5">
+                            <span class="ArchivoSemiBold d-block text-uppercase Fsize_24">Help Center</span>
+                            <span class="Fsize_16">Elysium support & help</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ContactForm" class="py-5">
+        <div class="container my-md-5 py-md-5">
+            <h3 class="text-center mb-4">Contact Us</h3>
+            <div class="row justify-content-center">
+                <div class="col-md-9 col-lg-6">
                     <form>
-                        <h3 class="ArchivoBold Fsize_56 text-center pb-4">Contact Us</h3>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1 Fsize_18 RobotoBold pb-2">Name</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your full name">
+                        <div class="mb-3">
+                            <label for="fullname" class="Fsize_18 mb-1">Name</label>
+                            <input type="text" class="form-control shadow-none rounded" id="fullname" placeholder="Enter your full name">
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1 Fsize_18 RobotoBold">Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                        <div class="mb-3">
+                            <label for="email" class="Fsize_18 mb-1">Email</label>
+                            <input type="text" class="form-control shadow-none rounded" id="email" placeholder="Enter your email">
                         </div>
-
-                        <div class="form-group">
-                            <label for="exampleInputPassword1 Fsize_18 RobotoBold">Company</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your company name">
+                        <div class="mb-3">
+                            <label for="company" class="Fsize_18 mb-1">Company</label>
+                            <input type="text" class="form-control shadow-none rounded" id="company" placeholder="Enter your company name">
                         </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1 Fsize_18 RobotoBold">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Enter your company name"></textarea>
+                        <div class="mb-3">
+                            <label for="company" class="Fsize_18 mb-1">Message</label>
+                            <textarea class="form-control shadow-none rounded py-2" rows="8" placeholder="Message"></textarea>
                         </div>
-                        <a class="BtnGreen text-uppercase py-2 px-3  rounded-pill d-inline-block" href="#">
-                            SUBMIT
-                        </a>
+                        <button type="submit" class="BtnGreen text-uppercase py-2 px-3 rounded-pill d-inline-block"> SUBMIT </button>
                     </form>
                 </div>
             </div>
