@@ -84,7 +84,7 @@ namespace VulcanForged.CMS.Admin.Controllers
                     if (file.Count > 0)
                     {
                         //var path= @"D:/Projects/Elysium_Web/Elysium.Web/wwwroot/images/";
-                        var path = _Configuration["Paths:IMAGES_PATH"];
+                        var path = _Configuration["Paths:IMAGES_PATH2"];
                         //var path = $@"{Directory.GetParent("~").Parent.FullName}\VulcanForged.WEB\wwwroot\assets\images\";
                         using (var fileStream = new FileStream(path + file[0].FileName, FileMode.Create))
                         {
