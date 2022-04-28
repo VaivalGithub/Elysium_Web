@@ -2,11 +2,11 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Microsoft.AspNetCore.Mvc.Razor.Extensions/3.1.23": {
+      "Microsoft.AspNetCore.Mvc.Razor.Extensions/3.1.24": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Razor.Language": "3.1.23",
-          "Microsoft.CodeAnalysis.Razor": "3.1.23"
+          "Microsoft.AspNetCore.Razor.Language": "3.1.24",
+          "Microsoft.CodeAnalysis.Razor": "3.1.24"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
@@ -15,11 +15,11 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/3.1.23": {
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/3.1.24": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Razor.Extensions": "3.1.23",
-          "Microsoft.CodeAnalysis.Razor": "3.1.23",
+          "Microsoft.AspNetCore.Mvc.Razor.Extensions": "3.1.24",
+          "Microsoft.CodeAnalysis.Razor": "3.1.24",
           "Microsoft.Extensions.DependencyModel": "3.1.6"
         },
         "compile": {
@@ -35,7 +35,7 @@
           "buildTransitive/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Razor.Language/3.1.23": {
+      "Microsoft.AspNetCore.Razor.Language/3.1.24": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {}
@@ -162,10 +162,10 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.Razor/3.1.23": {
+      "Microsoft.CodeAnalysis.Razor/3.1.24": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Razor.Language": "3.1.23",
+          "Microsoft.AspNetCore.Razor.Language": "3.1.24",
           "Microsoft.CodeAnalysis.CSharp": "3.3.0",
           "Microsoft.CodeAnalysis.Common": "3.3.0"
         },
@@ -273,24 +273,24 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.Mvc.Razor.Extensions/3.1.23": {
-      "sha512": "gIf1CPGmjbc8EQhQ2N9mM3hnhaBk3XMBHlMIHUtKajbKmmq7dTvdaPawS+xj2D6pj4KqgN1kQCWtVeqWqzbN9Q==",
+    "Microsoft.AspNetCore.Mvc.Razor.Extensions/3.1.24": {
+      "sha512": "EyO7W6j4d8REIWLo6STqO2r28i6ek75pYphLA1MxQKg6NA6GvWHj1vYZ4Db27SbnfuoI3MECtgwdY6UFalg8Eg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.razor.extensions/3.1.23",
+      "path": "microsoft.aspnetcore.mvc.razor.extensions/3.1.24",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.xml",
-        "microsoft.aspnetcore.mvc.razor.extensions.3.1.23.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.razor.extensions.3.1.24.nupkg.sha512",
         "microsoft.aspnetcore.mvc.razor.extensions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/3.1.23": {
-      "sha512": "aKRYdyKFGzUnOsnlMDNj1wMSe/ba6/FfqKLs668fXLtu2wxSDBGsMcJbyznR0qSvxWV3je9BTiSvM/oGPHC40g==",
+    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/3.1.24": {
+      "sha512": "95ocQIJ4zeWJYHhL1ZuR2CqwPtIa3yP9LTM+c53UuMqKPmaiGxSj8CyAwJYrfeET/+fYCPuEhtVae8JX47fzCA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/3.1.23",
+      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/3.1.24",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -300,21 +300,21 @@
         "buildTransitive/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets",
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll",
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.xml",
-        "microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.23.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.24.nupkg.sha512",
         "microsoft.aspnetcore.mvc.razor.runtimecompilation.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Razor.Language/3.1.23": {
-      "sha512": "nRewI4B06Wz7JIFsb3Mu09y9LXU4gWkaU1195S1+mIO1NrWrO2ZAe3/Hg+Lo9I9Q9yJojsH4xne4lpFhuBeG/w==",
+    "Microsoft.AspNetCore.Razor.Language/3.1.24": {
+      "sha512": "mJfHee4Pm10w2qK/vt4U7cnMc25FZPpeAPyWpCY0DIeWnPUeIu3eCstgOGvKT3AC8luJtxiKwuGxSKLk/9Um8g==",
       "type": "package",
-      "path": "microsoft.aspnetcore.razor.language/3.1.23",
+      "path": "microsoft.aspnetcore.razor.language/3.1.24",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.xml",
-        "microsoft.aspnetcore.razor.language.3.1.23.nupkg.sha512",
+        "microsoft.aspnetcore.razor.language.3.1.24.nupkg.sha512",
         "microsoft.aspnetcore.razor.language.nuspec"
       ]
     },
@@ -414,17 +414,17 @@
         "microsoft.codeanalysis.csharp.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.Razor/3.1.23": {
-      "sha512": "USzOBOh+WVpPqXFnF7Ac5jxjlWgjI/T3P8ltZvSX8ZFVYxL1k2sOpEr3JcvawP8jYfuoavaJcNdTvtH/YLP4fw==",
+    "Microsoft.CodeAnalysis.Razor/3.1.24": {
+      "sha512": "UirWMts2w4FYV0+dQmYqaAKDB5Er0Y/z7fOmqfxmkNWMK19Wlvg9B3rQLsUsCgV3+1FadqZhGRwCJoQagjNdog==",
       "type": "package",
-      "path": "microsoft.codeanalysis.razor/3.1.23",
+      "path": "microsoft.codeanalysis.razor/3.1.24",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll",
         "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.xml",
-        "microsoft.codeanalysis.razor.3.1.23.nupkg.sha512",
+        "microsoft.codeanalysis.razor.3.1.24.nupkg.sha512",
         "microsoft.codeanalysis.razor.nuspec"
       ]
     },
@@ -652,7 +652,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.23"
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.24"
     ]
   },
   "packageFolders": {
@@ -706,7 +706,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
-            "version": "[3.1.23, )"
+            "version": "[3.1.24, )"
           }
         },
         "imports": [
