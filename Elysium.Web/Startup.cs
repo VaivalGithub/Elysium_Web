@@ -27,20 +27,6 @@ namespace Elysium.Web
         {
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
-            services.AddDistributedMemoryCache();
-            services.AddSession(options =>
-            {
-                options.Cookie.Name = ".MarketVeriArti.Session";
-                options.Cookie.HttpOnly = true;
-                options.Cookie.IsEssential = true;
-                options.IdleTimeout = TimeSpan.FromMinutes(180);
-                options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-            });
-
-            //services.AddAntiforgery(options =>
-            //{
-            //    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-            //});
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.ConfigureApplicationCookie(options =>
@@ -89,10 +75,10 @@ namespace Elysium.Web
             {
                 app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
+               
             }
-
-            app.UseDeveloperExceptionPage();
+            app.UseHsts();
+            //app.UseDeveloperExceptionPage();
             //for clickjacking
             app.Use(async (context, next) =>
             {
@@ -118,8 +104,6 @@ namespace Elysium.Web
 
             app.UseRouting();
 
-            app.UseAuthorization();
-            app.UseSession();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
