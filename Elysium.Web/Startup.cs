@@ -83,7 +83,7 @@ namespace Elysium.Web
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                //app.UseDeveloperExceptionPage();
             }
             else
             {
@@ -91,18 +91,40 @@ namespace Elysium.Web
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseDeveloperExceptionPage();
+            //for clickjacking
+            app.Use(async (context, next) =>
+            {
+
+                //context.Response.Headers.Add("X-Frame-Options", "SAMEORIGIN");
+                //context.Response.Headers.Add("X-Content-Type-Options", "nosniff");
+                //context.Response.Headers.Add("referrer-policy", new StringValues("strict-origin-when-cross-origin"));
+                //context.Response.Headers.Add(
+                //    "Content-Security-Policy",
+                //    "script-src 'self'; " +
+                //    "style-src 'self'; " +
+                //    "img-src 'self'");
+
+                //context.Response.Headers.Add("X-Frame-Options", "SAMEORIGIN");
+                //context.Response.Headers.Add("X-Content-Type-Options", "nosniff");
+                //context.Response.Headers.Add("referrer-policy", new StringValues("strict-origin-when-cross-origin"));
+
+                await next();
+            });
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseSession();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index_LandingPage}/{id?}");
             });
         }
     }
