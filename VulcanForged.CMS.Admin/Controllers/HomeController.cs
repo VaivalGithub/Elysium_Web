@@ -68,7 +68,7 @@ namespace VulcanForged.CMS.Admin.Controllers
 
         public IActionResult ShowImages()
         {
-            ViewBag.BaseUrl = $"{ (object)Request.Scheme}://{ (object)Request.Host.Value}";
+            ViewBag.BaseUrl = "https://web-elysium.vulcanforged.com";
             return View("Images");
         }
 
