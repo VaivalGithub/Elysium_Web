@@ -3,6 +3,9 @@
     ViewData["Title"] = "Home Page";
     Layout = "~/Views/Shared/AdminLTE/_Layout.cshtml";
 }
+
+
+<input type="hidden" id="RRRRR" />
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -68,7 +71,15 @@
              editor.execCommand("find")
             var urlParams = new URLSearchParams(window.location.search);
             $('#save').click(function () {
-                $.post('SavePage', { filepath: urlParams.get("filePath"), fileContent: editor.getValue() },
+                debugger;
+                var key = CryptoJS.enc.Utf8.parse('8080808080808080');
+                var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
+                var encryptedlogin = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(editor.getValue()), key,{ keySize: 128 / 8, iv: iv, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.Pkcs7 });
+
+
+                $("#RRRRR").val(encryptedlogin);
+
+                $.post('SavePage', { filepath: urlParams.get("filePath"), fileContent: $("#RRRRR").val() },
                     function (returnedData) {
                         toastr.success(returnedData)
                         console.log(returnedData);

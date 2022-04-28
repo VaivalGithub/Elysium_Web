@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using SHARED;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -51,7 +52,10 @@ namespace VulcanForged.CMS.Admin.Controllers
         {
             try
             {
-                System.IO.File.WriteAllText(filePath, fileContent);
+
+                var Content = AESEncryption.DecryptStringAES(fileContent);
+
+                System.IO.File.WriteAllText(filePath, Content);
                 return Json("SuccessFully Edit the Page");
             }
             catch (Exception ex)
