@@ -1,40 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\VulcanForged.CMS.Admin\\VulcanForged.CMS.Admin.csproj": {}
+    "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/VulcanForged.CMS.Admin/VulcanForged.CMS.Admin.csproj": {}
   },
   "projects": {
-    "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\CORE\\CORE.csproj": {
+    "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\CORE\\CORE.csproj",
+        "projectUniqueName": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/CORE.csproj",
         "projectName": "CORE",
-        "projectPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\CORE\\CORE.csproj",
-        "packagesPath": "C:\\Users\\Vaival\\.nuget\\packages\\",
-        "outputPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\CORE\\obj\\",
+        "projectPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/CORE.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Vaival\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -46,7 +35,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -62,47 +50,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.418/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SERVICES\\SERVICES.csproj": {
+    "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/SERVICES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SERVICES\\SERVICES.csproj",
+        "projectUniqueName": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/SERVICES.csproj",
         "projectName": "SERVICES",
-        "projectPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SERVICES\\SERVICES.csproj",
-        "packagesPath": "C:\\Users\\Vaival\\.nuget\\packages\\",
-        "outputPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SERVICES\\obj\\",
+        "projectPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/SERVICES.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Vaival\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\CORE\\CORE.csproj": {
-                "projectPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\CORE\\CORE.csproj"
+              "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/CORE.csproj": {
+                "projectPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/CORE.csproj"
               },
-              "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SHARED\\SHARED.csproj": {
-                "projectPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SHARED\\SHARED.csproj"
+              "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/SHARED.csproj": {
+                "projectPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/SHARED.csproj"
               }
             }
           }
@@ -115,7 +92,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MySql.Data": {
               "target": "Package",
@@ -141,44 +117,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.418/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SHARED\\SHARED.csproj": {
+    "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/SHARED.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SHARED\\SHARED.csproj",
+        "projectUniqueName": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/SHARED.csproj",
         "projectName": "SHARED",
-        "projectPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SHARED\\SHARED.csproj",
-        "packagesPath": "C:\\Users\\Vaival\\.nuget\\packages\\",
-        "outputPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SHARED\\obj\\",
+        "projectPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/SHARED.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Vaival\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\CORE\\CORE.csproj": {
-                "projectPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\CORE\\CORE.csproj"
+              "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/CORE.csproj": {
+                "projectPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/CORE.csproj"
               }
             }
           }
@@ -191,7 +156,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
@@ -229,50 +193,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.418/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\VulcanForged.CMS.Admin\\VulcanForged.CMS.Admin.csproj": {
+    "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/VulcanForged.CMS.Admin/VulcanForged.CMS.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\VulcanForged.CMS.Admin\\VulcanForged.CMS.Admin.csproj",
+        "projectUniqueName": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/VulcanForged.CMS.Admin/VulcanForged.CMS.Admin.csproj",
         "projectName": "VulcanForged.CMS.Admin",
-        "projectPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\VulcanForged.CMS.Admin\\VulcanForged.CMS.Admin.csproj",
-        "packagesPath": "C:\\Users\\Vaival\\.nuget\\packages\\",
-        "outputPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\VulcanForged.CMS.Admin\\obj\\",
+        "projectPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/VulcanForged.CMS.Admin/VulcanForged.CMS.Admin.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/VulcanForged.CMS.Admin/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Vaival\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\CORE\\CORE.csproj": {
-                "projectPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\CORE\\CORE.csproj"
+              "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/CORE.csproj": {
+                "projectPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/CORE.csproj"
               },
-              "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SERVICES\\SERVICES.csproj": {
-                "projectPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SERVICES\\SERVICES.csproj"
+              "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/SERVICES.csproj": {
+                "projectPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/SERVICES.csproj"
               },
-              "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SHARED\\SHARED.csproj": {
-                "projectPath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SHARED\\SHARED.csproj"
+              "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/SHARED.csproj": {
+                "projectPath": "/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/SHARED.csproj"
               }
             }
           }
@@ -285,7 +238,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "FontAwesome": {
               "target": "Package",
@@ -314,7 +266,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.418/RuntimeIdentifierGraph.json"
         }
       }
     }
