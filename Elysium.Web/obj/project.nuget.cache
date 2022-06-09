@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mdh/YoWYeXG1bJy4IzfTFu7XK6dRiz9DGrClBGT0+fOqhlLr9WIkuv7p6MzQ2G9QBfxdyKgSPPv9ySZf6+jEew==",
+  "dgSpecHash": "JFfo4rsD8eaj/HO0EkizsbnAQ9UlqAYmwb9gXyT9uSjwC4qvyojmoUQB77ZjMP9nO4N/ActGuS8zcju2VIZ3ng==",
   "success": true,
-  "projectFilePath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\Elysium.Web\\Elysium.Web.csproj",
+  "projectFilePath": "D:\\Projects\\Elysium_Web\\Elysium.Web\\Elysium.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vaival\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Vaival\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.24\\microsoft.aspnetcore.mvc.razor.extensions.3.1.24.nupkg.sha512",

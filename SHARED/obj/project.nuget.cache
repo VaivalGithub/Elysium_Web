@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yoCgsHF1KFoGQ6p9Mywsx4E0/Gf8/FBPcHmE0awxMBaaNRMK3m+jWf+AwhfNK/pIYI2+LYEg6J5W6VPKBAaUrg==",
+  "dgSpecHash": "8DV632OYUTjAwsSWbX4CnidZJDo5dpp+sVS/HzAGRtderX+34wekFOc6KS3sVCHiBdmaR2/KIfMK9J6SK3g6cQ==",
   "success": true,
-  "projectFilePath": "D:\\VAIVAL\\PROJECTS\\GITHUB\\ELYSIUM\\Elysium_Web\\SHARED\\SHARED.csproj",
+  "projectFilePath": "D:\\Projects\\Elysium_Web\\SHARED\\SHARED.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vaival\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Vaival\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
