@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/root/app_git/Elysium/Elysium_Web/SHARED/SHARED.csproj": {}
   },
   "projects": {
@@ -15,11 +16,32 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
+=======
+    "D:\\Projects\\Elysium_Web\\SHARED\\SHARED.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Elysium_Web\\CORE\\CORE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Elysium_Web\\CORE\\CORE.csproj",
+        "projectName": "CORE",
+        "projectPath": "D:\\Projects\\Elysium_Web\\CORE\\CORE.csproj",
+        "packagesPath": "C:\\Users\\Vaival\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Elysium_Web\\CORE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vaival\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> f4b054e272aa094adc9a77b19f81afb02deae01d
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+<<<<<<< HEAD
+=======
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+>>>>>>> f4b054e272aa094adc9a77b19f81afb02deae01d
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +72,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.408/RuntimeIdentifierGraph.json"
         }
       }
@@ -65,18 +88,45 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Elysium_Web\\SHARED\\SHARED.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Elysium_Web\\SHARED\\SHARED.csproj",
+        "projectName": "SHARED",
+        "projectPath": "D:\\Projects\\Elysium_Web\\SHARED\\SHARED.csproj",
+        "packagesPath": "C:\\Users\\Vaival\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Elysium_Web\\SHARED\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vaival\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> f4b054e272aa094adc9a77b19f81afb02deae01d
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+<<<<<<< HEAD
+=======
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+>>>>>>> f4b054e272aa094adc9a77b19f81afb02deae01d
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< HEAD
               "/root/app_git/Elysium/Elysium_Web/CORE/CORE.csproj": {
                 "projectPath": "/root/app_git/Elysium/Elysium_Web/CORE/CORE.csproj"
+=======
+              "D:\\Projects\\Elysium_Web\\CORE\\CORE.csproj": {
+                "projectPath": "D:\\Projects\\Elysium_Web\\CORE\\CORE.csproj"
+>>>>>>> f4b054e272aa094adc9a77b19f81afb02deae01d
               }
             }
           }
@@ -126,7 +176,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.408/RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+>>>>>>> f4b054e272aa094adc9a77b19f81afb02deae01d
         }
       }
     }

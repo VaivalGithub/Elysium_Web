@@ -11,6 +11,7 @@ D:/Projects/VF_WEB/SHARED/obj/Debug/netcoreapp3.1/SHARED.csproj.CoreCompileInput
 D:/Projects/VF_WEB/SHARED/obj/Debug/netcoreapp3.1/SHARED.csproj.CopyComplete
 D:/Projects/VF_WEB/SHARED/obj/Debug/netcoreapp3.1/SHARED.dll
 D:/Projects/VF_WEB/SHARED/obj/Debug/netcoreapp3.1/SHARED.pdb
+<<<<<<< HEAD
 /root/app_git/Elysium/Elysium_Web/SHARED/bin/Debug/netcoreapp3.1/SHARED.deps.json
 /root/app_git/Elysium/Elysium_Web/SHARED/bin/Debug/netcoreapp3.1/SHARED.dll
 /root/app_git/Elysium/Elysium_Web/SHARED/bin/Debug/netcoreapp3.1/SHARED.pdb
@@ -23,3 +24,17 @@ D:/Projects/VF_WEB/SHARED/obj/Debug/netcoreapp3.1/SHARED.pdb
 /root/app_git/Elysium/Elysium_Web/SHARED/obj/Debug/netcoreapp3.1/SHARED.csproj.CopyComplete
 /root/app_git/Elysium/Elysium_Web/SHARED/obj/Debug/netcoreapp3.1/SHARED.dll
 /root/app_git/Elysium/Elysium_Web/SHARED/obj/Debug/netcoreapp3.1/SHARED.pdb
+=======
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/bin/Debug/netcoreapp3.1/SHARED.deps.json
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/bin/Debug/netcoreapp3.1/SHARED.dll
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/bin/Debug/netcoreapp3.1/SHARED.pdb
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/bin/Debug/netcoreapp3.1/CORE.dll
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/bin/Debug/netcoreapp3.1/CORE.pdb
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/obj/Debug/netcoreapp3.1/SHARED.csprojAssemblyReference.cache
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/obj/Debug/netcoreapp3.1/SHARED.AssemblyInfoInputs.cache
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/obj/Debug/netcoreapp3.1/SHARED.AssemblyInfo.cs
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/obj/Debug/netcoreapp3.1/SHARED.csproj.CoreCompileInputs.cache
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/obj/Debug/netcoreapp3.1/SHARED.csproj.CopyComplete
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/obj/Debug/netcoreapp3.1/SHARED.dll
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SHARED/obj/Debug/netcoreapp3.1/SHARED.pdb
+>>>>>>> f4b054e272aa094adc9a77b19f81afb02deae01d

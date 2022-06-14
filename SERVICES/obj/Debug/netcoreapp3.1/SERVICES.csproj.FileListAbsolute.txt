@@ -28,6 +28,7 @@ D:/Projects/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.csproj.CoreCom
 D:/Projects/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.csproj.CopyComplete
 D:/Projects/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.dll
 D:/Projects/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.pdb
+<<<<<<< HEAD
 /root/app_git/Elysium/Elysium_Web/SERVICES/bin/Debug/netcoreapp3.1/SERVICES.deps.json
 /root/app_git/Elysium/Elysium_Web/SERVICES/bin/Debug/netcoreapp3.1/SERVICES.dll
 /root/app_git/Elysium/Elysium_Web/SERVICES/bin/Debug/netcoreapp3.1/SERVICES.pdb
@@ -42,3 +43,19 @@ D:/Projects/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.pdb
 /root/app_git/Elysium/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.csproj.CopyComplete
 /root/app_git/Elysium/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.dll
 /root/app_git/Elysium/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.pdb
+=======
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/bin/Debug/netcoreapp3.1/SERVICES.deps.json
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/bin/Debug/netcoreapp3.1/SERVICES.dll
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/bin/Debug/netcoreapp3.1/SERVICES.pdb
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/bin/Debug/netcoreapp3.1/CORE.dll
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/bin/Debug/netcoreapp3.1/SHARED.dll
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/bin/Debug/netcoreapp3.1/CORE.pdb
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/bin/Debug/netcoreapp3.1/SHARED.pdb
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.csprojAssemblyReference.cache
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.AssemblyInfoInputs.cache
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.AssemblyInfo.cs
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.csproj.CoreCompileInputs.cache
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.csproj.CopyComplete
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.dll
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/SERVICES/obj/Debug/netcoreapp3.1/SERVICES.pdb
+>>>>>>> f4b054e272aa094adc9a77b19f81afb02deae01d

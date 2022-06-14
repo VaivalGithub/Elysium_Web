@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "35rsANylvHrhJ0bgJjo7jh//99NrSaqVJu3qktmOfxeRM+h/Eucubjw1Q0of4/q7/PFU6aEb/UixM5OAhWVL1Q==",
   "success": true,
   "projectFilePath": "/root/app_git/Elysium/Elysium_Web/VulcanForged.CMS.Admin/VulcanForged.CMS.Admin.csproj",
+=======
+  "dgSpecHash": "IBAK2t2p+ziNfsuezAkIGXkzxjZmr0dv14ItVUnyHwbchRWIKddaH7qTegElZkOLTkkMc/a+ptMNT9I9KlH/4g==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Elysium_Web\\VulcanForged.CMS.Admin\\VulcanForged.CMS.Admin.csproj",
+>>>>>>> f4b054e272aa094adc9a77b19f81afb02deae01d
   "expectedPackageFiles": [
     "/root/.nuget/packages/bouncycastle.netcore/1.8.3/bouncycastle.netcore.1.8.3.nupkg.sha512",
     "/root/.nuget/packages/fontawesome/4.7.0/fontawesome.4.7.0.nupkg.sha512",

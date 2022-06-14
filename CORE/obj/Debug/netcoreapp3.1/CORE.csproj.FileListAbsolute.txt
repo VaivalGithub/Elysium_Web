@@ -8,6 +8,7 @@ D:/Projects/VF_WEB/CORE/obj/Debug/netcoreapp3.1/CORE.AssemblyInfo.cs
 D:/Projects/VF_WEB/CORE/obj/Debug/netcoreapp3.1/CORE.csproj.CoreCompileInputs.cache
 D:/Projects/VF_WEB/CORE/obj/Debug/netcoreapp3.1/CORE.dll
 D:/Projects/VF_WEB/CORE/obj/Debug/netcoreapp3.1/CORE.pdb
+<<<<<<< HEAD
 /root/app_git/Elysium/Elysium_Web/CORE/bin/Debug/netcoreapp3.1/CORE.deps.json
 /root/app_git/Elysium/Elysium_Web/CORE/bin/Debug/netcoreapp3.1/CORE.dll
 /root/app_git/Elysium/Elysium_Web/CORE/bin/Debug/netcoreapp3.1/CORE.pdb
@@ -17,3 +18,13 @@ D:/Projects/VF_WEB/CORE/obj/Debug/netcoreapp3.1/CORE.pdb
 /root/app_git/Elysium/Elysium_Web/CORE/obj/Debug/netcoreapp3.1/CORE.csproj.CoreCompileInputs.cache
 /root/app_git/Elysium/Elysium_Web/CORE/obj/Debug/netcoreapp3.1/CORE.dll
 /root/app_git/Elysium/Elysium_Web/CORE/obj/Debug/netcoreapp3.1/CORE.pdb
+=======
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/bin/Debug/netcoreapp3.1/CORE.deps.json
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/bin/Debug/netcoreapp3.1/CORE.dll
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/bin/Debug/netcoreapp3.1/CORE.pdb
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/obj/Debug/netcoreapp3.1/CORE.AssemblyInfoInputs.cache
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/obj/Debug/netcoreapp3.1/CORE.AssemblyInfo.cs
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/obj/Debug/netcoreapp3.1/CORE.csproj.CoreCompileInputs.cache
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/obj/Debug/netcoreapp3.1/CORE.dll
+/root/veriarti-apps/Web-Elysium/WEB/Elysium_Web/CORE/obj/Debug/netcoreapp3.1/CORE.pdb
+>>>>>>> f4b054e272aa094adc9a77b19f81afb02deae01d

@@ -21,6 +21,7 @@ namespace Elysium.Web
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+					
                 });
     }
 }

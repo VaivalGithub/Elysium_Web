@@ -1,15 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.Extensions.Primitives;
 
 namespace Elysium.Web
 {
@@ -26,7 +29,22 @@ namespace Elysium.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddSignalR();
+            //Session Services
+            services.AddDistributedMemoryCache();
+            services.AddSession(options =>
+            {
+                options.Cookie.Name = ".MarketVeriArti.Session";
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+                options.IdleTimeout = TimeSpan.FromMinutes(180);
+                options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+            });
 
+            //services.AddAntiforgery(options =>
+            //{
+            //    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+            //});
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.ConfigureApplicationCookie(options =>
@@ -54,14 +72,7 @@ namespace Elysium.Web
                 opts.RedirectStatusCode = StatusCodes.Status307TemporaryRedirect;
             });
 
-            services.AddControllers();
-            services.AddMvc(options =>
-            {
-                // by type  
-            });//.AddRazorOptions(options => options.AllowRecompilingViewsOnFileChange = true);
-
-     
-
+          
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
