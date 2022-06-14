@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "iTXRwCTMW3xUT2jRpenco9/u8g3fc5Qi7KonzSwyFUB7Q/eH5LDnfvHgIfkjmS4S1a2NaDr3MSmsGPKnZzHNaw==",
   "success": true,
   "projectFilePath": "/root/app_git/Elysium/Elysium_Web/Elysium.Web/Elysium.Web.csproj",
-=======
-  "dgSpecHash": "JFfo4rsD8eaj/HO0EkizsbnAQ9UlqAYmwb9gXyT9uSjwC4qvyojmoUQB77ZjMP9nO4N/ActGuS8zcju2VIZ3ng==",
-  "success": true,
-  "projectFilePath": "D:\\Projects\\Elysium_Web\\Elysium.Web\\Elysium.Web.csproj",
->>>>>>> f4b054e272aa094adc9a77b19f81afb02deae01d
   "expectedPackageFiles": [
     "/root/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "/root/.nuget/packages/microsoft.aspnetcore.mvc.razor.extensions/3.1.24/microsoft.aspnetcore.mvc.razor.extensions.3.1.24.nupkg.sha512",
@@ -122,5 +116,12 @@
     "/root/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/root/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /root/app_git/Elysium/Elysium_Web/Elysium.Web/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
