@@ -23,3 +23,16 @@ D:/Projects/VF_WEB/SHARED/obj/Debug/netcoreapp3.1/SHARED.pdb
 /root/app_git/Elysium/Elysium_Web/SHARED/obj/Debug/netcoreapp3.1/SHARED.csproj.CopyComplete
 /root/app_git/Elysium/Elysium_Web/SHARED/obj/Debug/netcoreapp3.1/SHARED.dll
 /root/app_git/Elysium/Elysium_Web/SHARED/obj/Debug/netcoreapp3.1/SHARED.pdb
+D:\Projects\Elysium_Web\SHARED\bin\Debug\netcoreapp3.1\SHARED.deps.json
+D:\Projects\Elysium_Web\SHARED\bin\Debug\netcoreapp3.1\SHARED.dll
+D:\Projects\Elysium_Web\SHARED\bin\Debug\netcoreapp3.1\SHARED.pdb
+D:\Projects\Elysium_Web\SHARED\bin\Debug\netcoreapp3.1\CORE.dll
+D:\Projects\Elysium_Web\SHARED\bin\Debug\netcoreapp3.1\CORE.pdb
+D:\Projects\Elysium_Web\SHARED\obj\Debug\netcoreapp3.1\SHARED.csproj.AssemblyReference.cache
+D:\Projects\Elysium_Web\SHARED\obj\Debug\netcoreapp3.1\SHARED.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Elysium_Web\SHARED\obj\Debug\netcoreapp3.1\SHARED.AssemblyInfoInputs.cache
+D:\Projects\Elysium_Web\SHARED\obj\Debug\netcoreapp3.1\SHARED.AssemblyInfo.cs
+D:\Projects\Elysium_Web\SHARED\obj\Debug\netcoreapp3.1\SHARED.csproj.CoreCompileInputs.cache
+D:\Projects\Elysium_Web\SHARED\obj\Debug\netcoreapp3.1\SHARED.csproj.CopyComplete
+D:\Projects\Elysium_Web\SHARED\obj\Debug\netcoreapp3.1\SHARED.dll
+D:\Projects\Elysium_Web\SHARED\obj\Debug\netcoreapp3.1\SHARED.pdb

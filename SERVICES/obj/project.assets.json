@@ -6081,34 +6081,37 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "C:\\Users\\Vaival\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/root/app_git/Elysium/Elysium_Web/SERVICES/SERVICES.csproj",
+      "projectUniqueName": "D:\\Projects\\Elysium_Web\\SERVICES\\SERVICES.csproj",
       "projectName": "SERVICES",
-      "projectPath": "/root/app_git/Elysium/Elysium_Web/SERVICES/SERVICES.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/root/app_git/Elysium/Elysium_Web/SERVICES/obj/",
+      "projectPath": "D:\\Projects\\Elysium_Web\\SERVICES\\SERVICES.csproj",
+      "packagesPath": "C:\\Users\\Vaival\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Elysium_Web\\SERVICES\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Vaival\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/root/app_git/Elysium/Elysium_Web/CORE/CORE.csproj": {
-              "projectPath": "/root/app_git/Elysium/Elysium_Web/CORE/CORE.csproj"
+            "D:\\Projects\\Elysium_Web\\CORE\\CORE.csproj": {
+              "projectPath": "D:\\Projects\\Elysium_Web\\CORE\\CORE.csproj"
             },
-            "/root/app_git/Elysium/Elysium_Web/SHARED/SHARED.csproj": {
-              "projectPath": "/root/app_git/Elysium/Elysium_Web/SHARED/SHARED.csproj"
+            "D:\\Projects\\Elysium_Web\\SHARED\\SHARED.csproj": {
+              "projectPath": "D:\\Projects\\Elysium_Web\\SHARED\\SHARED.csproj"
             }
           }
         }
@@ -6121,6 +6124,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MySql.Data": {
             "target": "Package",
@@ -6146,7 +6150,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.408/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
