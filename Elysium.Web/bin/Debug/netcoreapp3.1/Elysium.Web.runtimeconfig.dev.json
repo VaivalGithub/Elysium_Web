@@ -1,13 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-<<<<<<< HEAD
       "/root/.dotnet/store/|arch|/|tfm|",
       "/root/.nuget/packages"
-=======
-      "C:\\Users\\Vaival\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Vaival\\.nuget\\packages"
->>>>>>> f4b054e272aa094adc9a77b19f81afb02deae01d
     ]
   }
 }
