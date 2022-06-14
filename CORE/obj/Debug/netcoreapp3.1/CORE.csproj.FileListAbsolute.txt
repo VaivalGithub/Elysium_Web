@@ -17,3 +17,13 @@ D:/Projects/VF_WEB/CORE/obj/Debug/netcoreapp3.1/CORE.pdb
 /root/app_git/Elysium/Elysium_Web/CORE/obj/Debug/netcoreapp3.1/CORE.csproj.CoreCompileInputs.cache
 /root/app_git/Elysium/Elysium_Web/CORE/obj/Debug/netcoreapp3.1/CORE.dll
 /root/app_git/Elysium/Elysium_Web/CORE/obj/Debug/netcoreapp3.1/CORE.pdb
+D:\Projects\Elysium_Web\CORE\bin\Debug\netcoreapp3.1\CORE.deps.json
+D:\Projects\Elysium_Web\CORE\bin\Debug\netcoreapp3.1\CORE.dll
+D:\Projects\Elysium_Web\CORE\bin\Debug\netcoreapp3.1\CORE.pdb
+D:\Projects\Elysium_Web\CORE\obj\Debug\netcoreapp3.1\CORE.csproj.AssemblyReference.cache
+D:\Projects\Elysium_Web\CORE\obj\Debug\netcoreapp3.1\CORE.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Elysium_Web\CORE\obj\Debug\netcoreapp3.1\CORE.AssemblyInfoInputs.cache
+D:\Projects\Elysium_Web\CORE\obj\Debug\netcoreapp3.1\CORE.AssemblyInfo.cs
+D:\Projects\Elysium_Web\CORE\obj\Debug\netcoreapp3.1\CORE.csproj.CoreCompileInputs.cache
+D:\Projects\Elysium_Web\CORE\obj\Debug\netcoreapp3.1\CORE.dll
+D:\Projects\Elysium_Web\CORE\obj\Debug\netcoreapp3.1\CORE.pdb
