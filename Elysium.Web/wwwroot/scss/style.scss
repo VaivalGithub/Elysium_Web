@@ -312,13 +312,6 @@ footer {
 	h3 {
 		font-size: 38px;
 	}
-	#ElysiumGrow {
-		.GradientBox {
-			min-height: 300px;
-		}
-	}
-}
-@include media-breakpoint-down(lg) {
 	header {
 		.navbar {
 			.navbar-collapse {
@@ -344,6 +337,13 @@ footer {
 			}
 		}
 	}
+	#ElysiumGrow {
+		.GradientBox {
+			min-height: 300px;
+		}
+	}
+}
+@include media-breakpoint-down(lg) {
 	#Banner {
 		h1 {
 			font-size: 90px;
@@ -403,6 +403,13 @@ footer {
 			font-size: 18px;
 		}
 	}
+	#BecomeValidator {
+		&.RadialGradient {
+			&:before {
+				left: 0px;
+			}
+		}
+	}
 }
 @include media-breakpoint-down(sm) {
 	body {
@@ -424,6 +431,8 @@ footer {
 
 	#Banner {
 		min-height: 300px;
+		height: auto;
+		padding: 120px 0;
 		h1 {
 			font-size: 40px;
 		}
@@ -456,6 +465,9 @@ footer {
 		}
 	}
 	#InnovateInspire {
+		h3.Fsize_48 {
+			font-size: 28px;
+		}
 		.join-btn {
 			.Fsize_24 {
 				font-size: 20px;

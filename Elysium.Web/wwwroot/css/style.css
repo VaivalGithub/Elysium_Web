@@ -10097,10 +10097,6 @@ footer a {
     font-size: 50px; }
   h3, .h3 {
     font-size: 38px; }
-  #ElysiumGrow .GradientBox {
-    min-height: 300px; } }
-
-@media (max-width: 991.98px) {
   header .navbar .navbar-collapse {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -10125,6 +10121,10 @@ footer a {
       left: -100%;
       right: auto;
       opacity: 0; }
+  #ElysiumGrow .GradientBox {
+    min-height: 300px; } }
+
+@media (max-width: 991.98px) {
   #Banner h1, #Banner .h1 {
     font-size: 90px; }
   #ElysiumGrow .GradientBox {
@@ -10150,7 +10150,9 @@ footer a {
   #InnovateInspire h3.Fsize_48, #InnovateInspire .Fsize_48.h3 {
     font-size: 36px; }
   #footer h6, #footer .h6 {
-    font-size: 18px; } }
+    font-size: 18px; }
+  #BecomeValidator.RadialGradient:before {
+    left: 0px; } }
 
 @media (max-width: 575.98px) {
   body {
@@ -10163,7 +10165,9 @@ footer a {
   h5, .h5 {
     font-size: 22px; }
   #Banner {
-    min-height: 300px; }
+    min-height: 300px;
+    height: auto;
+    padding: 120px 0; }
     #Banner h1, #Banner .h1 {
       font-size: 40px; }
     #Banner .Fsize_56,
@@ -10179,6 +10183,8 @@ footer a {
   #BlogDetail h3.Fsize_48, #BlogDetail .Fsize_48.h3,
   #ElysiumAmbassador h3.Fsize_48,
   #ElysiumAmbassador .Fsize_48.h3 {
+    font-size: 28px; }
+  #InnovateInspire h3.Fsize_48, #InnovateInspire .Fsize_48.h3 {
     font-size: 28px; }
   #InnovateInspire .join-btn .Fsize_24 {
     font-size: 20px; }
