@@ -350,3 +350,4 @@ Write(RenderSection("Scripts", required: false));
     }
 }
 #pragma warning restore 1591
+
