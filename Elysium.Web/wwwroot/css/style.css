@@ -10089,6 +10089,9 @@ header .navbar .navbar-collapse > ul {
 footer a {
   color: #fff; }
 
+footer h6, footer .h6 {
+  font-size: 16px; }
+
 /*======================================
 		Responsive START
 ======================================*/
