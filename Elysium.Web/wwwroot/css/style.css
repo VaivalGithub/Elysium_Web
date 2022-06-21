@@ -9505,7 +9505,7 @@ input:focus, a:focus, button:focus, textarea:focus {
   background: transparent -webkit-gradient(linear, left top, left bottom, from(#78DBA3), color-stop(35%, #25A7DE), to(#F20587)) 0% 0% no-repeat padding-box;
   background: transparent -webkit-linear-gradient(top, #78DBA3 0%, #25A7DE 35%, #F20587 100%) 0% 0% no-repeat padding-box;
   background: transparent -o-linear-gradient(top, #78DBA3 0%, #25A7DE 35%, #F20587 100%) 0% 0% no-repeat padding-box;
-  background: transparent linear-gradient(180deg, #78DBA3 0%, #25A7DE 35%, #F20587 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(to bottom, #78DBA3 0%, #25A7DE 35%, #F20587 100%) 0% 0% no-repeat padding-box;
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
