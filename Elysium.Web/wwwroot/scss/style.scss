@@ -398,6 +398,11 @@ footer {
 			font-size: 36px;
 		}
 	}
+	#footer {
+		h6 {
+			font-size: 18px;
+		}
+	}
 }
 @include media-breakpoint-down(sm) {
 	body {
@@ -476,4 +481,5 @@ footer {
 			}
 		}
 	}
+
 }

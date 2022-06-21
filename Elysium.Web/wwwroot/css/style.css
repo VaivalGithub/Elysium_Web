@@ -10148,7 +10148,9 @@ footer a {
   #BlogDetail h3.Fsize_48, #BlogDetail .Fsize_48.h3 {
     font-size: 36px; }
   #InnovateInspire h3.Fsize_48, #InnovateInspire .Fsize_48.h3 {
-    font-size: 36px; } }
+    font-size: 36px; }
+  #footer h6, #footer .h6 {
+    font-size: 18px; } }
 
 @media (max-width: 575.98px) {
   body {
