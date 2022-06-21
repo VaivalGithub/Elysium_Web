@@ -9506,8 +9506,14 @@ input:focus, a:focus, button:focus, textarea:focus {
   background: transparent -webkit-linear-gradient(top, #78DBA3 0%, #25A7DE 35%, #F20587 100%) 0% 0% no-repeat padding-box;
   background: transparent -o-linear-gradient(top, #78DBA3 0%, #25A7DE 35%, #F20587 100%) 0% 0% no-repeat padding-box;
   background: transparent linear-gradient(180deg, #78DBA3 0%, #25A7DE 35%, #F20587 100%) 0% 0% no-repeat padding-box;
+  background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -ms-text-fill-color: transparent; }
 
 .GradientBox {
   background: transparent -webkit-gradient(linear, left top, left bottom, color-stop(60%, #301c50), to(#f20587)) 0% 0% no-repeat padding-box;
