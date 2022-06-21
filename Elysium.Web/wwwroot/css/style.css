@@ -9513,7 +9513,11 @@ input:focus, a:focus, button:focus, textarea:focus {
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  -ms-text-fill-color: transparent; }
+  -ms-text-fill-color: transparent;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  -ms-box-decoration-break: clone; }
 
 .GradientBox {
   background: transparent -webkit-gradient(linear, left top, left bottom, color-stop(60%, #301c50), to(#f20587)) 0% 0% no-repeat padding-box;
