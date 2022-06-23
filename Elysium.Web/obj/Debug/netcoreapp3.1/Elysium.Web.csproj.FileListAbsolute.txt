@@ -1564,3 +1564,5 @@ D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Elysium.Web.csproj.C
 D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Elysium.Web.dll
 D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Elysium.Web.pdb
 D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Elysium.Web.genruntimeconfig.cache
+D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\PrivacyPolicy\Index.cshtml.g.cs
+D:\Projects\Elysium_Web\Elysium.Web\obj\Debug\netcoreapp3.1\Razor\Views\TermsAndConditions\Index.cshtml.g.cs
