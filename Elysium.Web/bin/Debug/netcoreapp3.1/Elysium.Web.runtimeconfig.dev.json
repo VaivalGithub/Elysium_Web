@@ -1,8 +1,14 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "/root/.dotnet/store/|arch|/|tfm|",
       "/root/.nuget/packages"
+=======
+      "C:\\Users\\Vaival\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Vaival\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+>>>>>>> eb6a4e960bf196b2984c05b4c8a03c1a3de642f1
     ]
   }
 }

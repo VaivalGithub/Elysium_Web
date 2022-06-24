@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "nw/W9x+0gS5NA5jbb83hIEatujNljK1YUiccpqRnPsXGnkdK4dChdZSVOm1OfxNS530lpVyWZsYjIcbiDUoXvQ==",
   "success": true,
   "projectFilePath": "/root/app_git/Elysium/Elysium_Web/SHARED/SHARED.csproj",
+=======
+  "dgSpecHash": "RSsA/VPgunjF6Oa18eLUgwmo+Kkrq1tUGExCwCg9ObGkZgTL4SUQdeGqBTeSSw2E317a5EEVVrSlyALijY4t4g==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\Elysium_Web\\SHARED\\SHARED.csproj",
+>>>>>>> eb6a4e960bf196b2984c05b4c8a03c1a3de642f1
   "expectedPackageFiles": [
     "/root/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "/root/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

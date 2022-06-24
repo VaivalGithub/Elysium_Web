@@ -6554,19 +6554,41 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "/root/.nuget/packages/": {}
+=======
+    "C:\\Users\\Vaival\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+>>>>>>> eb6a4e960bf196b2984c05b4c8a03c1a3de642f1
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/root/app_git/Elysium/Elysium_Web/VulcanForged.CMS.Admin/VulcanForged.CMS.Admin.csproj",
       "projectName": "VulcanForged.CMS.Admin",
       "projectPath": "/root/app_git/Elysium/Elysium_Web/VulcanForged.CMS.Admin/VulcanForged.CMS.Admin.csproj",
       "packagesPath": "/root/.nuget/packages/",
       "outputPath": "/root/app_git/Elysium/Elysium_Web/VulcanForged.CMS.Admin/obj/",
+=======
+      "projectUniqueName": "D:\\projects\\Elysium_Web\\VulcanForged.CMS.Admin\\VulcanForged.CMS.Admin.csproj",
+      "projectName": "VulcanForged.CMS.Admin",
+      "projectPath": "D:\\projects\\Elysium_Web\\VulcanForged.CMS.Admin\\VulcanForged.CMS.Admin.csproj",
+      "packagesPath": "C:\\Users\\Vaival\\.nuget\\packages\\",
+      "outputPath": "D:\\projects\\Elysium_Web\\VulcanForged.CMS.Admin\\obj\\",
+>>>>>>> eb6a4e960bf196b2984c05b4c8a03c1a3de642f1
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
+<<<<<<< HEAD
         "/root/.nuget/NuGet/NuGet.Config"
+=======
+        "C:\\Users\\Vaival\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> eb6a4e960bf196b2984c05b4c8a03c1a3de642f1
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6577,6 +6599,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+<<<<<<< HEAD
             "/root/app_git/Elysium/Elysium_Web/CORE/CORE.csproj": {
               "projectPath": "/root/app_git/Elysium/Elysium_Web/CORE/CORE.csproj"
             },
@@ -6585,6 +6608,16 @@
             },
             "/root/app_git/Elysium/Elysium_Web/SHARED/SHARED.csproj": {
               "projectPath": "/root/app_git/Elysium/Elysium_Web/SHARED/SHARED.csproj"
+=======
+            "D:\\projects\\Elysium_Web\\CORE\\CORE.csproj": {
+              "projectPath": "D:\\projects\\Elysium_Web\\CORE\\CORE.csproj"
+            },
+            "D:\\projects\\Elysium_Web\\SERVICES\\SERVICES.csproj": {
+              "projectPath": "D:\\projects\\Elysium_Web\\SERVICES\\SERVICES.csproj"
+            },
+            "D:\\projects\\Elysium_Web\\SHARED\\SHARED.csproj": {
+              "projectPath": "D:\\projects\\Elysium_Web\\SHARED\\SHARED.csproj"
+>>>>>>> eb6a4e960bf196b2984c05b4c8a03c1a3de642f1
             }
           }
         }
@@ -6625,7 +6658,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.408/RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+>>>>>>> eb6a4e960bf196b2984c05b4c8a03c1a3de642f1
       }
     }
   }

@@ -28,7 +28,11 @@ a {
 input:focus, a:focus, button:focus, textarea:focus {
 	outline: none;
 }
-
+.Text {
+	&Green {
+	color: #9FC131;
+}
+	   }
 .Fsize {
 	&_10 {
 		font-size: 10px;

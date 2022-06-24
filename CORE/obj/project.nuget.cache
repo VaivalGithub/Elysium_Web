@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "grQVCX+wc2LACfhnlXsJibzQZ0PJvR9MaraXntvk6R9rpnYfmGPAdblpr4wJth43DFEVSEt0jJwgs09z9ychRQ==",
   "success": true,
   "projectFilePath": "/root/app_git/Elysium/Elysium_Web/CORE/CORE.csproj",
+=======
+  "dgSpecHash": "K46vMOBbEw3+le0ylkyBABHbzbGeedpog2jMb3sSlUccRn5GeEv7KaF/2hmkjtma3sXKPPPoHhr5beFDAU3TLQ==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\Elysium_Web\\CORE\\CORE.csproj",
+>>>>>>> eb6a4e960bf196b2984c05b4c8a03c1a3de642f1
   "expectedPackageFiles": [],
   "logs": []
 }
