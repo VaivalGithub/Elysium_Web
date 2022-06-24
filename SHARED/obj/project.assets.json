@@ -524,34 +524,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vaival\\.nuget\\packages\\": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Elysium_Web\\SHARED\\SHARED.csproj",
+      "projectUniqueName": "/root/app_git/Elysium/Elysium_Web/SHARED/SHARED.csproj",
       "projectName": "SHARED",
-      "projectPath": "D:\\Projects\\Elysium_Web\\SHARED\\SHARED.csproj",
-      "packagesPath": "C:\\Users\\Vaival\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Elysium_Web\\SHARED\\obj\\",
+      "projectPath": "/root/app_git/Elysium/Elysium_Web/SHARED/SHARED.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/root/app_git/Elysium/Elysium_Web/SHARED/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vaival\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Projects\\Elysium_Web\\CORE\\CORE.csproj": {
-              "projectPath": "D:\\Projects\\Elysium_Web\\CORE\\CORE.csproj"
+            "/root/app_git/Elysium/Elysium_Web/CORE/CORE.csproj": {
+              "projectPath": "/root/app_git/Elysium/Elysium_Web/CORE/CORE.csproj"
             }
           }
         }
@@ -564,7 +561,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": {
             "target": "Package",
@@ -602,7 +598,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.408/RuntimeIdentifierGraph.json"
       }
     }
   }
