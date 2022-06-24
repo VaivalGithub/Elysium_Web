@@ -6081,20 +6081,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vaival\\.nuget\\packages\\": {}
+    "C:\\Users\\Vaival\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Elysium_Web\\SERVICES\\SERVICES.csproj",
+      "projectUniqueName": "D:\\projects\\Elysium_Web\\SERVICES\\SERVICES.csproj",
       "projectName": "SERVICES",
-      "projectPath": "D:\\Projects\\Elysium_Web\\SERVICES\\SERVICES.csproj",
+      "projectPath": "D:\\projects\\Elysium_Web\\SERVICES\\SERVICES.csproj",
       "packagesPath": "C:\\Users\\Vaival\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Elysium_Web\\SERVICES\\obj\\",
+      "outputPath": "D:\\projects\\Elysium_Web\\SERVICES\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\Vaival\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6107,11 +6112,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Projects\\Elysium_Web\\CORE\\CORE.csproj": {
-              "projectPath": "D:\\Projects\\Elysium_Web\\CORE\\CORE.csproj"
+            "D:\\projects\\Elysium_Web\\CORE\\CORE.csproj": {
+              "projectPath": "D:\\projects\\Elysium_Web\\CORE\\CORE.csproj"
             },
-            "D:\\Projects\\Elysium_Web\\SHARED\\SHARED.csproj": {
-              "projectPath": "D:\\Projects\\Elysium_Web\\SHARED\\SHARED.csproj"
+            "D:\\projects\\Elysium_Web\\SHARED\\SHARED.csproj": {
+              "projectPath": "D:\\projects\\Elysium_Web\\SHARED\\SHARED.csproj"
             }
           }
         }
@@ -6150,7 +6155,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

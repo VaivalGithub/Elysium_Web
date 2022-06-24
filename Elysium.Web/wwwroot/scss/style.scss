@@ -18,7 +18,7 @@
 }
 @font-face {
 	@include fontface($ArchivoBold, 'Archivo-Bold');
-}
+} 
 @font-face {
 	@include fontface($ArchivoBlack, 'Archivo-Black');
 }
@@ -436,9 +436,11 @@ footer {
 		min-height: 300px;
 		height: auto;
 		padding: 120px 0;
+
 		h1 {
 			font-size: 40px;
 		}
+
 		.Fsize_56,
 		.Fsize_32 {
 			font-size: 24px;
@@ -449,16 +451,29 @@ footer {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
+
 	#Blog {
 		h4 {
 			font-size: 22px;
 		}
+
 		h5 {
 			&.Fsize_24 {
 				font-size: 18px;
 			}
 		}
 	}
+
+	#TermsConditions, #PrivacyPolicy {
+		h4 {
+			font-size: 18px;
+		}
+
+		p {
+			font-size: 14px;
+		}
+	}
+
 	#BlogDetail,
 	#ElysiumAmbassador {
 		h3 {
@@ -467,16 +482,19 @@ footer {
 			}
 		}
 	}
+
 	#InnovateInspire {
 		h3.Fsize_48 {
 			font-size: 28px;
 		}
+
 		.join-btn {
 			.Fsize_24 {
 				font-size: 20px;
 			}
 		}
 	}
+
 	#ElysiumGrow {
 		.GradientBox {
 			&::after {
@@ -496,5 +514,4 @@ footer {
 			}
 		}
 	}
-
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7RNe1kxl0iKxOLDyqG1bSl89e92IDdJn6gleHnkrjYgwI9T8bsRo7FtWPGuyiyzQjzK2EBQWISXdukjPde9Jyw==",
+  "dgSpecHash": "rOrTLq26MkGlMUWjkcll+QrUKB/H6DzWWELH3nlktFzB+vT/uw1fCTmvR7wwaBxrF5mfVvti9KrINrWUysuTaQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Elysium_Web\\Elysium.Web\\Elysium.Web.csproj",
+  "projectFilePath": "D:\\projects\\Elysium_Web\\Elysium.Web\\Elysium.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vaival\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Vaival\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.24\\microsoft.aspnetcore.mvc.razor.extensions.3.1.24.nupkg.sha512",
@@ -114,8 +114,7 @@
     "C:\\Users\\Vaival\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
     "C:\\Users\\Vaival\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Vaival\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Vaival\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Vaival\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+    "C:\\Users\\Vaival\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

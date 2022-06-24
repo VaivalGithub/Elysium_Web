@@ -9351,6 +9351,9 @@ a {
 input:focus, a:focus, button:focus, textarea:focus {
   outline: none; }
 
+.TextGreen {
+  color: #9FC131; }
+
 .Fsize_10 {
   font-size: 10px; }
 
@@ -10183,6 +10186,10 @@ footer h6, footer .h6 {
     font-size: 22px; }
   #Blog h5.Fsize_24, #Blog .Fsize_24.h5 {
     font-size: 18px; }
+  #TermsConditions h4, #TermsConditions .h4, #PrivacyPolicy h4, #PrivacyPolicy .h4 {
+    font-size: 18px; }
+  #TermsConditions p, #PrivacyPolicy p {
+    font-size: 14px; }
   #BlogDetail h3.Fsize_48, #BlogDetail .Fsize_48.h3,
   #ElysiumAmbassador h3.Fsize_48,
   #ElysiumAmbassador .Fsize_48.h3 {
