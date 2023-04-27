@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "grQVCX+wc2LACfhnlXsJibzQZ0PJvR9MaraXntvk6R9rpnYfmGPAdblpr4wJth43DFEVSEt0jJwgs09z9ychRQ==",
+  "dgSpecHash": "fd2Tz6wbNY3iC7Q0GyRn3Q1pqSPr+oCZ6TLJLug9p5plw22BdZrz9s8McSTZJvzM0hC24MkXjMrVopug7glL2w==",
   "success": true,
-  "projectFilePath": "/root/app_git/Elysium/Elysium_Web/CORE/CORE.csproj",
-=======
-  "dgSpecHash": "K46vMOBbEw3+le0ylkyBABHbzbGeedpog2jMb3sSlUccRn5GeEv7KaF/2hmkjtma3sXKPPPoHhr5beFDAU3TLQ==",
-  "success": true,
-  "projectFilePath": "D:\\projects\\Elysium_Web\\CORE\\CORE.csproj",
->>>>>>> eb6a4e960bf196b2984c05b4c8a03c1a3de642f1
+  "projectFilePath": "D:\\Projects\\Elysium_Web\\CORE\\CORE.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Projects\\Elysium_Web\\CORE\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

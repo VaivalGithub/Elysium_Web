@@ -6199,50 +6199,31 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "/root/.nuget/packages/": {}
-=======
-    "C:\\Users\\Vaival\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
->>>>>>> eb6a4e960bf196b2984c05b4c8a03c1a3de642f1
+    "C:\\Users\\Vaival\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "/root/app_git/Elysium/Elysium_Web/Elysium.Web/Elysium.Web.csproj",
+      "projectUniqueName": "D:\\Projects\\Elysium_Web\\Elysium.Web\\Elysium.Web.csproj",
       "projectName": "Elysium.Web",
-      "projectPath": "/root/app_git/Elysium/Elysium_Web/Elysium.Web/Elysium.Web.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/root/app_git/Elysium/Elysium_Web/Elysium.Web/obj/",
-=======
-      "projectUniqueName": "D:\\projects\\Elysium_Web\\Elysium.Web\\Elysium.Web.csproj",
-      "projectName": "Elysium.Web",
-      "projectPath": "D:\\projects\\Elysium_Web\\Elysium.Web\\Elysium.Web.csproj",
+      "projectPath": "D:\\Projects\\Elysium_Web\\Elysium.Web\\Elysium.Web.csproj",
       "packagesPath": "C:\\Users\\Vaival\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\Elysium_Web\\Elysium.Web\\obj\\",
->>>>>>> eb6a4e960bf196b2984c05b4c8a03c1a3de642f1
+      "outputPath": "D:\\Projects\\Elysium_Web\\Elysium.Web\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "/root/.nuget/NuGet/NuGet.Config"
-=======
         "C:\\Users\\Vaival\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
->>>>>>> eb6a4e960bf196b2984c05b4c8a03c1a3de642f1
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -6254,6 +6235,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
@@ -6282,12 +6264,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.408/RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
->>>>>>> eb6a4e960bf196b2984c05b4c8a03c1a3de642f1
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Projects\\Elysium_Web\\Elysium.Web\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
